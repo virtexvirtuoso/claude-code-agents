@@ -1,655 +1,303 @@
 # Claude Code Agents Collection
 
-A comprehensive collection of specialized AI agents for Claude Code, designed to enhance development workflows across various domains including software engineering, trading systems, design, marketing, operations, and product management.
+A comprehensive collection of **47 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
 
-## 📋 Table of Contents
+## 📁 Directory Structure
 
-- [Overview](#overview)
-- [Quick Start](#quick-start)
-- [Agent Categories](#agent-categories)
-  - [Core Technical Agents](#core-technical-agents)
-  - [Design Agents](#design-agents)
-  - [Engineering Agents](#engineering-agents)
-  - [Marketing Agents](#marketing-agents)
-  - [Operations Agents](#operations-agents)
-  - [Product Agents](#product-agents)
-- [Usage](#usage)
-- [Contributing](#contributing)
+```
+claude-code-agents/
+├── 📂 architecture/          # System design & code quality (4 agents)
+├── 📂 analysis-tools/        # Data analysis & testing (4 agents)
+├── 📂 trading/               # Financial & trading systems (4 agents)
+├── 📂 design/                # UI/UX & visual design (6 agents)
+├── 📂 engineering/           # Software development (7 agents)
+├── 📂 marketing/             # Growth & content (7 agents)
+├── 📂 operations/            # Infrastructure & support (5 agents)
+├── 📂 product/               # Product management (5 agents)
+├── 📂 team-management/       # Leadership & productivity (2 agents)
+├── 📄 pepe.md                # Master orchestrator agent
+├── 📄 api-expert.md          # API design specialist
+└── 📄 webhook-expert.md      # Webhook integration specialist
+```
 
-## Overview
+## 🚀 Quick Start
 
-This repository contains **47 specialized AI agents** organized into functional categories. Each agent is an expert in a specific domain and can be invoked through Claude Code to assist with targeted tasks.
-
-## Quick Start
-
-### Global Installation (All Projects)
+### Global Installation (Available in All Projects)
 ```bash
 # Clone to your global Claude directory
-cp -r /path/to/claude-code-agents/* ~/.claude/agents/
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git
+cp -r claude-code-agents/* ~/.claude/agents/
 ```
 
 ### Project-Specific Installation
 ```bash
 # Clone to your project's Claude directory
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git
 mkdir -p .claude/agents
-cp -r /path/to/claude-code-agents/* .claude/agents/
+cp -r claude-code-agents/* .claude/agents/
 ```
 
-## Agent Categories
+## 📚 Agent Catalog
 
-### Core Technical Agents
+### 🎯 Core Agents (Root Level)
 
-#### **pepe** - Master Orchestrator
-Strategic coordinator that analyzes complex requests and delegates to specialized agents for optimal outcomes. Excels at decomposing problems, identifying required expertise, and managing multi-agent workflows.
-
-**Key Capabilities:**
-- Request analysis and decomposition
-- Agent selection and coordination
-- Workflow management
-- Handoff coordination
-- Output aggregation
+| Agent | Description | Key Use Cases |
+|-------|-------------|---------------|
+| **pepe** | Master orchestrator for complex multi-agent workflows | Task decomposition, agent coordination, workflow management |
+| **api-expert** | REST API design, authentication, and integration | API architecture, OAuth/JWT, rate limiting, OpenAPI docs |
+| **webhook-expert** | Webhook configuration and event processing | HMAC verification, retry logic, event handling |
 
 ---
 
-#### **api-expert**
-REST API design, authentication, rate limiting, and integration specialist covering RESTful APIs and webhooks.
+### 🏗️ Architecture (4 agents)
 
-**Key Capabilities:**
-- API design and architecture
-- Authentication (JWT/OAuth/API keys)
-- Error handling and validation
-- Webhook configuration
-- OpenAPI documentation
+| Agent | Description |
+|-------|-------------|
+| **architecture-simplifier** | Reduces complexity and refactors system architecture |
+| **async-pattern-analyzer** | Analyzes async/await patterns and concurrency issues |
+| **cache-implementation-reviewer** | Reviews caching strategies (Redis, CDN, database) |
+| **dependency-injection-expert** | Implements DI patterns and IoC containers |
 
----
-
-#### **python-trading-expert**
-Expert in Python trading systems, CCXT, and exchange integrations for algorithmic trading.
-
-**Key Capabilities:**
-- CCXT library mastery
-- Exchange APIs (Binance/Bybit/Kraken)
-- Order execution logic
-- Backtesting frameworks
-- Risk management systems
+**When to use:** System redesign, performance optimization, technical debt reduction, SOLID principles implementation
 
 ---
 
-#### **financial-ml-engineer**
-Applies machine learning to financial time series data including stock prices, cryptocurrency analysis, and trading strategies.
+### 🔬 Analysis Tools (4 agents)
 
-**Key Capabilities:**
-- Time series analysis (ARIMA/LSTM)
-- Feature engineering for financial data
-- Backtesting and validation
-- Risk metrics (VaR/Sharpe)
-- Market forecasting
+| Agent | Description |
+|-------|-------------|
+| **data-scientist-researcher** | Rigorous data analysis and statistical modeling |
+| **qa-validation-engineer** | Comprehensive end-to-end validation and testing |
+| **code-documentation-auditor** | Reviews and improves documentation quality |
+| **file-organizer** | Organizes and optimizes file systems |
 
----
-
-#### **data-scientist-researcher**
-Provides rigorous data analysis, statistical modeling, and research-driven insights with scientific integrity.
-
-**Key Capabilities:**
-- Hypothesis testing
-- Exploratory data analysis
-- ML modeling and validation
-- A/B test design
-- Causal inference
+**When to use:** Data analysis, hypothesis testing, code reviews, test strategy, project cleanup
 
 ---
 
-#### **qa-validation-engineer**
-Provides comprehensive end-to-end validation of code changes, bug fixes, and feature implementations.
+### 💹 Trading (4 agents)
 
-**Key Capabilities:**
-- Test strategy design
-- Acceptance criteria validation
-- Regression testing
-- Code cleanup validation
-- Defect reporting
+| Agent | Description |
+|-------|-------------|
+| **python-trading-expert** | CCXT library and exchange API integration |
+| **trading-logic-validator** | Validates financial calculations and precision |
+| **financial-ml-engineer** | ML for time series and market forecasting |
+| **dashboard-wizard** | High-performance data dashboards with caching |
 
----
-
-#### **dashboard-wizard**
-Designs, builds, and optimizes data dashboards with API integrations and caching mechanisms for high-performance systems.
-
-**Key Capabilities:**
-- Dashboard architecture
-- API integration
-- Caching strategies (Redis)
-- Performance tuning
-- Real-time data handling
+**When to use:** Algorithmic trading, exchange integration, financial analysis, trading dashboards, backtesting
 
 ---
 
-#### **tech-lead-advisor**
-Provides technical leadership, best practices, and strategic guidance for high-performing teams.
+### 🎨 Design (6 agents)
 
-**Key Capabilities:**
-- System architecture
-- Code review standards
-- Technical debt management
-- Team mentorship
-- Stakeholder communication
+| Agent | Description |
+|-------|-------------|
+| **ui-designer** | Practical interface design bridging design and code |
+| **ux-researcher** | User research and usability testing |
+| **brand-guardian** | Visual identity consistency and brand guidelines |
+| **visual-storyteller** | Compelling visual narratives and data viz |
+| **whimsy-injector** | Delightful interactions and playful design |
+| **fintech-ux-designer** | Financial UIs and trading dashboard design |
 
----
-
-#### **architecture-simplifier**
-Reduces complexity, refactors code, and improves system architecture by identifying and eliminating bottlenecks.
-
-**Key Capabilities:**
-- Bottleneck identification
-- Complexity assessment
-- Layer consolidation
-- Over-engineering detection
-- Performance optimization
+**When to use:** UI/UX design, design systems, user research, branding, financial interfaces
 
 ---
 
-#### **code-documentation-auditor**
-Reviews and improves code documentation, README files, and API docs with focus on completeness and maintainability.
+### ⚙️ Engineering (7 agents)
 
-**Key Capabilities:**
-- Documentation coverage audits
-- README optimization
-- API documentation
-- Auto-generation tools
-- Indexing and searchability
+| Agent | Description |
+|-------|-------------|
+| **ai-engineer** | Production-ready AI/ML feature integration |
+| **backend-architect** | Scalable APIs and distributed systems |
+| **frontend-developer** | High-performance React/Vue/Angular UIs |
+| **devops-automator** | CI/CD pipelines and infrastructure automation |
+| **mobile-app-builder** | Native iOS/Android and cross-platform apps |
+| **rapid-prototyper** | MVPs in days using modern tooling |
+| **test-writer-fixer** | Comprehensive test suites and TDD |
 
----
-
-#### **cache-implementation-reviewer**
-Reviews and validates caching strategies and implementations across all paradigms (in-memory, distributed, browser, CDN, database query caches).
-
-**Key Capabilities:**
-- Cache strategy analysis
-- Performance evaluation
-- Issue identification
-- Eviction policy optimization
-- Coherency problems
+**When to use:** Full-stack development, infrastructure, testing, rapid prototyping, ML deployment
 
 ---
 
-#### **trading-logic-validator**
-Validates trading calculations, financial logic, and algorithm correctness with focus on numerical precision and financial mathematics.
+### 📣 Marketing (7 agents)
 
-**Key Capabilities:**
-- Financial calculations validation
-- Decimal precision checking
-- Order execution logic
-- Common trading bugs identification
-- Risk calculations
+| Agent | Description |
+|-------|-------------|
+| **growth-hacker** | Viral growth loops and experimentation |
+| **content-creator** | Multi-platform content strategy |
+| **app-store-optimizer** | ASO for iOS/Android app stores |
+| **twitter-engager** | Twitter/X strategy and engagement |
+| **tiktok-strategist** | Viral short-form video content |
+| **reddit-community-builder** | Authentic Reddit community engagement |
+| **instagram-curator** | Visual content and feed aesthetics |
 
----
-
-#### **webhook-expert**
-Webhook configuration, event processing, and callback handling expert specializing in real-time integrations.
-
-**Key Capabilities:**
-- Webhook security (HMAC verification)
-- Event processing patterns
-- Error handling and retries
-- Testing strategies
-- Provider integration
+**When to use:** Growth strategy, content marketing, social media, app store optimization, viral marketing
 
 ---
 
-#### **dependency-injection-expert**
-Implements DI patterns, IoC containers, and decouples components across multiple frameworks and languages.
+### 🔧 Operations (5 agents)
 
-**Key Capabilities:**
-- SOLID principles
-- Constructor/setter injection
-- DI containers
-- Testing with mocks
-- Lifecycle management
+| Agent | Description |
+|-------|-------------|
+| **analytics-reporter** | Data insights and executive reporting |
+| **infrastructure-maintainer** | Cost-effective scaling and reliability |
+| **support-responder** | Customer service excellence |
+| **finance-tracker** | Financial planning and budgeting |
+| **legal-compliance-checker** | Regulatory compliance and risk management |
 
----
-
-#### **async-pattern-analyzer**
-Analyzes async/await patterns, concurrency, and performance bottlenecks in asynchronous code.
-
-**Key Capabilities:**
-- Missing await detection
-- Race condition identification
-- Resource management
-- Deadlock analysis
-- Connection pooling
+**When to use:** Business operations, infrastructure scaling, customer support, financial management, compliance
 
 ---
 
-#### **file-organizer**
-Organizes, cleans, and optimizes file systems and directories with systematic file management approaches.
+### 📦 Product (5 agents)
 
-**Key Capabilities:**
-- Project structure cleanup
-- Directory organization
-- Duplicate detection
-- Naming conventions
-- Automation scripts
+| Agent | Description |
+|-------|-------------|
+| **feedback-synthesizer** | Transforms user feedback into features |
+| **sprint-prioritizer** | Sprint planning and backlog management |
+| **trend-researcher** | Emerging trend analysis and market intelligence |
+| **experiment-tracker** | A/B testing and feature validation |
+| **project-shipper** | Release planning and launch coordination |
 
----
-
-#### **fintech-ux-designer**
-Designs financial UIs, trading dashboards, and data visualizations with minimalistic excellence and functionality-first approach.
-
-**Key Capabilities:**
-- Trading dashboards
-- Financial visualizations
-- Data clarity
-- Responsive design
-- User flow documentation
+**When to use:** Product management, sprint planning, A/B testing, market research, feature prioritization
 
 ---
 
-### Design Agents
+### 👥 Team Management (2 agents)
 
-#### **ui-designer**
-Designs interfaces developers can actually build, bridging design and code with practical implementation focus.
+| Agent | Description |
+|-------|-------------|
+| **tech-lead-advisor** | Technical leadership and best practices |
+| **studio-producer** | Team productivity and blocker removal |
 
-**Key Capabilities:**
-- Design systems
-- Component libraries
-- Responsive design
-- Figma/Sketch
-- Design-development collaboration
+**When to use:** Technical leadership, team coordination, process improvement, productivity optimization
 
 ---
 
-#### **ux-researcher**
-Turns user insights into product improvements through qualitative and quantitative research methods.
+## 💡 Usage Guide
 
-**Key Capabilities:**
-- User interviews
-- Usability testing
-- Analytics interpretation
-- User personas
-- Journey mapping
+### Invoking Agents in Claude Code
 
----
-
-#### **brand-guardian**
-Keeps visual identity consistent everywhere through brand guidelines and governance.
-
-**Key Capabilities:**
-- Brand guidelines
-- Visual identity systems
-- Cross-channel consistency
-- Asset management
-- Brand training
-
----
-
-#### **visual-storyteller**
-Creates visuals that convert and share through compelling visual narratives.
-
-**Key Capabilities:**
-- Data visualization
-- Infographics
-- Motion design
-- Illustration
-- Conversion-focused design
-
----
-
-#### **whimsy-injector**
-Adds delight to every interaction through playful moments and personality-driven design.
-
-**Key Capabilities:**
-- Delightful interactions
-- Easter eggs
-- Playful animations
-- Gamification
-- Emotional design
-
----
-
-### Engineering Agents
-
-#### **ai-engineer**
-Integrates AI/ML features that actually ship with focus on practical implementation and production reliability.
-
-**Key Capabilities:**
-- Model integration
-- Inference pipelines
-- Feature engineering
-- Production ML infrastructure
-- Performance optimization
-
----
-
-#### **backend-architect**
-Designs scalable APIs and server systems with expertise in distributed systems and microservices.
-
-**Key Capabilities:**
-- API design (REST/GraphQL)
-- Microservices architecture
-- Database design
-- Caching strategies
-- System scalability
-
----
-
-#### **rapid-prototyper**
-Builds MVPs in days, not weeks using modern tools and no-code/low-code solutions when appropriate.
-
-**Key Capabilities:**
-- Tech stack selection for speed
-- MVP development
-- Rapid UI implementation
-- Serverless functions
-- Quick iteration
-
----
-
-#### **frontend-developer**
-Builds blazing-fast user interfaces with modern JavaScript frameworks and performance optimization.
-
-**Key Capabilities:**
-- React/Vue/Angular mastery
-- Performance optimization
-- Responsive design
-- Web Vitals
-- Component architecture
-
----
-
-#### **devops-automator**
-Deploys continuously without breaking things through CI/CD pipelines and infrastructure automation.
-
-**Key Capabilities:**
-- CI/CD pipelines
-- Kubernetes/Docker
-- Infrastructure as code (Terraform)
-- Monitoring/observability
-- Cloud optimization
-
----
-
-#### **mobile-app-builder**
-Creates native iOS/Android experiences using React Native, Flutter, or native development.
-
-**Key Capabilities:**
-- Cross-platform development
-- Native iOS/Android
-- Performance optimization
-- Push notifications
-- App store deployment
-
----
-
-#### **test-writer-fixer**
-Writes tests that catch real bugs with comprehensive test suites and automation strategies.
-
-**Key Capabilities:**
-- Test strategy design
-- TDD practices
-- Integration testing
-- E2E testing (Cypress/Playwright)
-- Test automation
-
----
-
-### Marketing Agents
-
-#### **growth-hacker**
-Finds and exploits viral growth loops through experimentation and optimization.
-
-**Key Capabilities:**
-- Viral loop design
-- Growth experimentation
-- Conversion optimization
-- Acquisition channels
-- Retention strategies
-
----
-
-#### **content-creator**
-Generates content across all platforms (written, video, audio, visual) that drives engagement.
-
-**Key Capabilities:**
-- Multi-platform content strategy
-- SEO optimization
-- Video/visual content
-- Content distribution
-- Performance analysis
-
----
-
-#### **app-store-optimizer**
-Dominates app store search results through keyword optimization and visual asset creation.
-
-**Key Capabilities:**
-- Keyword research
-- Visual asset optimization
-- Listing optimization
-- Ratings management
-- Conversion tracking
-
----
-
-#### **twitter-engager**
-Rides trends to viral engagement on Twitter/X through strategic content and community building.
-
-**Key Capabilities:**
-- Tweet optimization
-- Thread creation
-- Trend-jacking
-- Community building
-- Twitter algorithm mastery
-
----
-
-#### **tiktok-strategist**
-Creates shareable marketing moments through viral short-form video content.
-
-**Key Capabilities:**
-- TikTok trends
-- Algorithm optimization
-- Creator partnerships
-- Authentic content
-- TikTok advertising
-
----
-
-#### **reddit-community-builder**
-Wins Reddit without being banned through authentic community engagement.
-
-**Key Capabilities:**
-- Reddit culture mastery
-- Community engagement
-- Promotional tactics
-- Subreddit management
-- Authentic contribution
-
----
-
-#### **instagram-curator**
-Masters the visual content game with cohesive feed aesthetics and engagement strategies.
-
-**Key Capabilities:**
-- Visual content strategy
-- Feed aesthetics
-- Instagram algorithm
-- Reels optimization
-- Shopping features
-
----
-
-### Operations Agents
-
-#### **analytics-reporter**
-Turns data into actionable insights through analysis, visualization, and clear communication.
-
-**Key Capabilities:**
-- Statistical analysis
-- Dashboard creation
-- KPI tracking
-- Predictive analytics
-- Executive reporting
-
----
-
-#### **infrastructure-maintainer**
-Scales without breaking the bank through cost-effective infrastructure and reliability engineering.
-
-**Key Capabilities:**
-- Cloud cost optimization
-- Scalability architecture
-- Reliability engineering
-- Performance optimization
-- Automation
-
----
-
-#### **support-responder**
-Turns angry users into advocates through exceptional customer service and issue resolution.
-
-**Key Capabilities:**
-- Empathetic communication
-- Issue resolution
-- Support system optimization
-- Customer success
-- Team training
-
----
-
-#### **finance-tracker**
-Keeps the studio profitable through financial planning, budgeting, and burn rate management.
-
-**Key Capabilities:**
-- Financial modeling
-- Budget planning
-- Revenue optimization
-- Cost management
-- Cash flow forecasting
-
----
-
-#### **legal-compliance-checker**
-Stays legal while moving fast through regulatory compliance and risk management.
-
-**Key Capabilities:**
-- Data privacy (GDPR/CCPA)
-- Intellectual property
-- Contract management
-- Regulatory compliance
-- Risk assessment
-
----
-
-#### **studio-producer**
-Keeps teams shipping, not meeting through productivity optimization and blocker removal.
-
-**Key Capabilities:**
-- Team productivity
-- Meeting optimization
-- Blocker removal
-- Process improvement
-- Team health
-
----
-
-### Product Agents
-
-#### **feedback-synthesizer**
-Transforms complaints into features through systematic feedback collection and analysis.
-
-**Key Capabilities:**
-- Feedback collection
-- Pattern recognition
-- Problem-to-solution translation
-- Stakeholder communication
-- Feedback systems
-
----
-
-#### **sprint-prioritizer**
-Ships maximum value in 6 days through effective sprint planning and backlog management.
-
-**Key Capabilities:**
-- Sprint planning
-- Prioritization frameworks (RICE/MoSCoW)
-- Backlog management
-- Stakeholder alignment
-- Velocity optimization
-
----
-
-#### **trend-researcher**
-Identifies viral opportunities through emerging trend analysis and market intelligence.
-
-**Key Capabilities:**
-- Trend identification
-- Market intelligence
-- Opportunity assessment
-- Competitive analysis
-- Early adopter targeting
-
----
-
-#### **experiment-tracker**
-Provides data-driven feature validation through A/B testing and statistical analysis.
-
-**Key Capabilities:**
-- Experiment design
-- Statistical analysis
-- Feature flags
-- Test execution
-- Results interpretation
-
----
-
-#### **project-shipper**
-Launches products that don't crash through comprehensive release planning and risk mitigation.
-
-**Key Capabilities:**
-- Release planning
-- Risk mitigation
-- Launch coordination
-- Quality assurance
-- Post-launch monitoring
-
----
-
-## Usage
-
-### Using Agents in Claude Code
-
-Agents can be invoked through the Task tool in Claude Code:
-
-```markdown
-Use the {agent-name} agent to help with {specific task}
+```
+Use the {agent-name} agent to {specific task}
 ```
 
 **Examples:**
-- "Use the python-trading-expert to review my CCXT integration"
-- "Have the qa-validation-engineer validate these bug fixes"
-- "Ask the dashboard-wizard to optimize this analytics dashboard"
+```
+Use the python-trading-expert to review my Bybit integration
+Ask the qa-validation-engineer to validate these bug fixes
+Have the dashboard-wizard optimize this analytics dashboard
+Use the architecture-simplifier to refactor this monolith
+```
 
-### Agent Selection Guidelines
+### Agent Selection Decision Tree
 
-1. **Single Responsibility**: Choose the agent that most closely matches your specific task
-2. **Orchestration**: Use `pepe` for complex tasks requiring multiple agents
-3. **Validation**: Consider using `qa-validation-engineer` after major changes
-4. **Documentation**: Invoke `code-documentation-auditor` before releases
+1. **Complex multi-step task?** → Start with `pepe` (orchestrator)
+2. **Trading/Finance related?** → Check `/trading/` agents
+3. **Need code review/testing?** → Check `/analysis-tools/` agents
+4. **Architecture/design patterns?** → Check `/architecture/` agents
+5. **UI/UX work?** → Check `/design/` agents
+6. **Infrastructure/deployment?** → Check `/engineering/` or `/operations/`
+7. **Marketing/growth?** → Check `/marketing/` agents
+8. **Product decisions?** → Check `/product/` agents
 
-## Contributing
+### Best Practices
 
-Contributions are welcome! To add new agents or improve existing ones:
+- **Single Responsibility**: Choose the most specific agent for your task
+- **Orchestration**: Use `pepe` for tasks requiring multiple agents
+- **Validation**: Always run `qa-validation-engineer` after major changes
+- **Documentation**: Use `code-documentation-auditor` before releases
+- **Financial Code**: Always validate with `trading-logic-validator` for precision
 
-1. Follow the existing agent markdown format
-2. Include clear capability descriptions
-3. Provide usage examples
-4. Update this README with new agent information
+---
 
-## License
+## 🔄 Agent Workflows
+
+### Common Workflows
+
+**Building a Trading System:**
+1. `backend-architect` → System design
+2. `python-trading-expert` → Exchange integration
+3. `trading-logic-validator` → Validate calculations
+4. `dashboard-wizard` → Analytics dashboard
+5. `qa-validation-engineer` → End-to-end testing
+
+**Launching a New Feature:**
+1. `product` agents → Planning & prioritization
+2. `engineering` agents → Implementation
+3. `qa-validation-engineer` → Testing & validation
+4. `project-shipper` → Launch coordination
+
+**Optimizing Performance:**
+1. `architecture-simplifier` → Identify bottlenecks
+2. `cache-implementation-reviewer` → Caching strategy
+3. `async-pattern-analyzer` → Concurrency issues
+4. `devops-automator` → Infrastructure optimization
+
+---
+
+## 📊 Agent Statistics
+
+| Category | Agent Count | Primary Use Cases |
+|----------|------------|-------------------|
+| **Architecture** | 4 | System design, performance, patterns |
+| **Analysis Tools** | 4 | Testing, data science, documentation |
+| **Trading** | 4 | Finance, trading systems, dashboards |
+| **Design** | 6 | UI/UX, branding, visual design |
+| **Engineering** | 7 | Full-stack development, DevOps |
+| **Marketing** | 7 | Growth, content, social media |
+| **Operations** | 5 | Infrastructure, support, compliance |
+| **Product** | 5 | Product management, experimentation |
+| **Team Management** | 2 | Leadership, productivity |
+| **Core** | 3 | Orchestration, APIs, webhooks |
+| **TOTAL** | **47** | All development workflows |
+
+---
+
+## 🤝 Contributing
+
+To add new agents or improve existing ones:
+
+1. Place agent file in the appropriate directory
+2. Follow the existing markdown format
+3. Include clear capability descriptions
+4. Update this README's agent catalog
+5. Submit a pull request
+
+### Agent Template Structure
+```markdown
+# Agent Name
+
+## Role
+[Brief description]
+
+## Capabilities
+- [Key capability 1]
+- [Key capability 2]
+...
+
+## When to Use
+[Specific use cases]
+
+## Example Tasks
+[Concrete examples]
+```
+
+---
+
+## 📝 License
 
 Private repository - All rights reserved.
 
 ---
 
+## 📞 Support
+
+For questions or issues:
+- Review the agent catalog above
+- Check agent file for detailed capabilities
+- Use `pepe` for complex multi-agent tasks
+
+**Maintained by:** virtexvirtuoso
 **Total Agents:** 47
-**Categories:** 6 (Core Technical, Design, Engineering, Marketing, Operations, Product)
-**Maintained by:** [Your Name/Team]
+**Last Updated:** 2025-09-30
