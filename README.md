@@ -6,7 +6,7 @@ A comprehensive collection of **47 specialized AI agents** for Claude Code, desi
 
 ```
 claude-code-agents/
-├── 📂 architecture/          # System design & code quality (4 agents)
+├── 📂 architecture/          # System design, APIs & code quality (6 agents)
 ├── 📂 analysis-tools/        # Data analysis & testing (4 agents)
 ├── 📂 trading/               # Financial & trading systems (4 agents)
 ├── 📂 design/                # UI/UX & visual design (6 agents)
@@ -15,9 +15,7 @@ claude-code-agents/
 ├── 📂 operations/            # Infrastructure & support (5 agents)
 ├── 📂 product/               # Product management (5 agents)
 ├── 📂 team-management/       # Leadership & productivity (2 agents)
-├── 📄 pepe.md                # Master orchestrator agent
-├── 📄 api-expert.md          # API design specialist
-└── 📄 webhook-expert.md      # Webhook integration specialist
+└── 📄 pepe.md                # Master orchestrator agent
 ```
 
 ## 🚀 Quick Start
@@ -39,26 +37,26 @@ cp -r claude-code-agents/* .claude/agents/
 
 ## 📚 Agent Catalog
 
-### 🎯 Core Agents (Root Level)
+### 🎯 Master Orchestrator
 
 | Agent | Description | Key Use Cases |
 |-------|-------------|---------------|
 | **pepe** | Master orchestrator for complex multi-agent workflows | Task decomposition, agent coordination, workflow management |
-| **api-expert** | REST API design, authentication, and integration | API architecture, OAuth/JWT, rate limiting, OpenAPI docs |
-| **webhook-expert** | Webhook configuration and event processing | HMAC verification, retry logic, event handling |
 
 ---
 
-### 🏗️ Architecture (4 agents)
+### 🏗️ Architecture (6 agents)
 
 | Agent | Description |
 |-------|-------------|
+| **api-expert** | REST API design, authentication, and integration |
+| **webhook-expert** | Webhook configuration and event processing |
 | **architecture-simplifier** | Reduces complexity and refactors system architecture |
 | **async-pattern-analyzer** | Analyzes async/await patterns and concurrency issues |
 | **cache-implementation-reviewer** | Reviews caching strategies (Redis, CDN, database) |
 | **dependency-injection-expert** | Implements DI patterns and IoC containers |
 
-**When to use:** System redesign, performance optimization, technical debt reduction, SOLID principles implementation
+**When to use:** API design, webhook integration, system redesign, performance optimization, technical debt reduction, SOLID principles
 
 ---
 
@@ -240,7 +238,7 @@ Use the architecture-simplifier to refactor this monolith
 
 | Category | Agent Count | Primary Use Cases |
 |----------|------------|-------------------|
-| **Architecture** | 4 | System design, performance, patterns |
+| **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
 | **Analysis Tools** | 4 | Testing, data science, documentation |
 | **Trading** | 4 | Finance, trading systems, dashboards |
 | **Design** | 6 | UI/UX, branding, visual design |
@@ -249,7 +247,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Operations** | 5 | Infrastructure, support, compliance |
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
-| **Core** | 3 | Orchestration, APIs, webhooks |
+| **Orchestrator** | 1 | Multi-agent workflow coordination |
 | **TOTAL** | **47** | All development workflows |
 
 ---
