@@ -1,13 +1,13 @@
 # Claude Code Agents Collection
 
-A comprehensive collection of **47 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
+A comprehensive collection of **48 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
 ```
 claude-code-agents/
 ├── 📂 architecture/          # System design, APIs & code quality (6 agents)
-├── 📂 analysis-tools/        # Data analysis & testing (4 agents)
+├── 📂 analysis-tools/        # Data analysis & testing (5 agents)
 ├── 📂 trading/               # Financial & trading systems (4 agents)
 ├── 📂 design/                # UI/UX & visual design (6 agents)
 ├── 📂 engineering/           # Software development (7 agents)
@@ -60,16 +60,17 @@ cp -r claude-code-agents/* .claude/agents/
 
 ---
 
-### 🔬 Analysis Tools (4 agents)
+### 🔬 Analysis Tools (5 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **data-scientist-researcher** | Rigorous data analysis and statistical modeling |
+| **optuna-optimizer** | Hyperparameter tuning and black-box optimization |
 | **qa-validation-engineer** | Comprehensive end-to-end validation and testing |
 | **code-documentation-auditor** | Reviews and improves documentation quality |
 | **file-organizer** | Organizes and optimizes file systems |
 
-**When to use:** Data analysis, hypothesis testing, code reviews, test strategy, project cleanup
+**When to use:** Data analysis, hyperparameter optimization, hypothesis testing, code reviews, test strategy, project cleanup
 
 ---
 
@@ -239,7 +240,7 @@ Use the architecture-simplifier to refactor this monolith
 | Category | Agent Count | Primary Use Cases |
 |----------|------------|-------------------|
 | **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
-| **Analysis Tools** | 4 | Testing, data science, documentation |
+| **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
 | **Trading** | 4 | Finance, trading systems, dashboards |
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
@@ -248,7 +249,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **47** | All development workflows |
+| **TOTAL** | **48** | All development workflows |
 
 ---
 
@@ -297,5 +298,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 47
-**Last Updated:** 2025-09-30
+**Total Agents:** 48
+**Last Updated:** 2025-11-16
