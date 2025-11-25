@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **50 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **51 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -14,6 +14,7 @@ All agents are located in the root directory for easy discovery by Claude Code's
 ```
 claude-code-agents/
 ├── 📄 pepe.md                        # Master orchestrator agent
+├── 📄 prompt-engineer.md             # LLM prompt design & optimization
 ├── 📄 security-auditor.md            # Security audits & vulnerability assessment
 ├── 📄 pine-script-developer.md       # TradingView Pine Script developer
 ├── 📄 python-trading-expert.md       # Trading systems & exchange APIs
@@ -41,7 +42,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 50 agents listed
+# You should see all 51 agents listed
 ```
 
 ## 📚 Agent Catalog
@@ -80,6 +81,16 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 | **file-organizer** | Organizes and optimizes file systems |
 
 **When to use:** Data analysis, hyperparameter optimization, hypothesis testing, code reviews, test strategy, project cleanup
+
+---
+
+### 🤖 AI Engineering (1 agent)
+
+| Agent | Description |
+|-------|-------------|
+| **prompt-engineer** | LLM prompt design, optimization, evaluation frameworks, injection hardening |
+
+**When to use:** System prompt design, few-shot learning, chain-of-thought reasoning, prompt evaluation (Promptfoo/RAGAS), token optimization, prompt injection defense, A/B testing frameworks, LLM-as-judge patterns, RAG prompt design
 
 ---
 
@@ -261,6 +272,7 @@ Use the architecture-simplifier to refactor this monolith
 |----------|------------|-------------------|
 | **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
 | **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
+| **AI Engineering** | 1 | Prompt design, LLM optimization, evaluation frameworks |
 | **Security** | 1 | Vulnerability assessment, secure code review, compliance |
 | **Trading** | 5 | Finance, trading systems, dashboards, TradingView Pine Script |
 | **Design** | 6 | UI/UX, branding, visual design |
@@ -270,7 +282,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **50** | All development workflows |
+| **TOTAL** | **51** | All development workflows |
 
 ---
 
@@ -321,5 +333,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 50
+**Total Agents:** 51
 **Last Updated:** 2025-11-25
