@@ -250,7 +250,7 @@ Use the architecture-simplifier to refactor this monolith
 |----------|------------|-------------------|
 | **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
 | **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
-| **Trading** | 5 | TradingView Pine Script, finance, trading systems, dashboards |
+| **Trading** | 5 | Finance, trading systems, dashboards, TradingView Pine Script |
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
 | **Marketing** | 7 | Growth, content, social media |
