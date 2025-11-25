@@ -1,3 +1,8 @@
+---
+name: "Documentation"
+ignore: true
+---
+
 # Claude Code Agents Collection
 
 A comprehensive collection of **48 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
