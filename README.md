@@ -5,39 +5,42 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **48 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
+A comprehensive collection of **49 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, trading systems, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
+All agents are located in the root directory for easy discovery by Claude Code's `/agents` command:
+
 ```
 claude-code-agents/
-├── 📂 architecture/          # System design, APIs & code quality (6 agents)
-├── 📂 analysis-tools/        # Data analysis & testing (5 agents)
-├── 📂 trading/               # Financial & trading systems (4 agents)
-├── 📂 design/                # UI/UX & visual design (6 agents)
-├── 📂 engineering/           # Software development (7 agents)
-├── 📂 marketing/             # Growth & content (7 agents)
-├── 📂 operations/            # Infrastructure & support (5 agents)
-├── 📂 product/               # Product management (5 agents)
-├── 📂 team-management/       # Leadership & productivity (2 agents)
-└── 📄 pepe.md                # Master orchestrator agent
+├── 📄 pepe.md                        # Master orchestrator agent
+├── 📄 pine-script-developer.md       # TradingView Pine Script developer
+├── 📄 python-trading-expert.md       # Trading systems & exchange APIs
+├── 📄 optuna-optimizer.md            # Hyperparameter optimization
+├── 📄 api-expert.md                  # REST API design & integration
+├── 📄 qa-validation-engineer.md      # Testing & validation
+└── ... 43 more specialized agents
 ```
 
 ## 🚀 Quick Start
 
 ### Global Installation (Available in All Projects)
 ```bash
-# Clone to your global Claude directory
-git clone https://github.com/virtexvirtuoso/claude-code-agents.git
-cp -r claude-code-agents/* ~/.claude/agents/
+# Clone directly to your global Claude agents directory
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git ~/.claude/agents
 ```
 
 ### Project-Specific Installation
 ```bash
 # Clone to your project's Claude directory
-git clone https://github.com/virtexvirtuoso/claude-code-agents.git
-mkdir -p .claude/agents
-cp -r claude-code-agents/* .claude/agents/
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agents
+```
+
+### Verify Installation
+```bash
+# In any Claude Code session, run:
+/agents
+# You should see all 49 agents listed
 ```
 
 ## 📚 Agent Catalog
@@ -79,16 +82,17 @@ cp -r claude-code-agents/* .claude/agents/
 
 ---
 
-### 💹 Trading (4 agents)
+### 💹 Trading (5 agents)
 
 | Agent | Description |
 |-------|-------------|
+| **pine-script-developer** | TradingView Pine Script v6 indicators and strategies |
 | **python-trading-expert** | CCXT library and exchange API integration |
 | **trading-logic-validator** | Validates financial calculations and precision |
 | **financial-ml-engineer** | ML for time series and market forecasting |
 | **dashboard-wizard** | High-performance data dashboards with caching |
 
-**When to use:** Algorithmic trading, exchange integration, financial analysis, trading dashboards, backtesting
+**When to use:** TradingView indicators/strategies, algorithmic trading, exchange integration, financial analysis, trading dashboards, backtesting
 
 ---
 
@@ -246,7 +250,7 @@ Use the architecture-simplifier to refactor this monolith
 |----------|------------|-------------------|
 | **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
 | **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
-| **Trading** | 4 | Finance, trading systems, dashboards |
+| **Trading** | 5 | TradingView Pine Script, finance, trading systems, dashboards |
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
 | **Marketing** | 7 | Growth, content, social media |
@@ -254,7 +258,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **48** | All development workflows |
+| **TOTAL** | **49** | All development workflows |
 
 ---
 
@@ -262,11 +266,13 @@ Use the architecture-simplifier to refactor this monolith
 
 To add new agents or improve existing ones:
 
-1. Place agent file in the appropriate directory
-2. Follow the existing markdown format
+1. Place agent file in the root directory
+2. Follow the existing markdown format with proper frontmatter
 3. Include clear capability descriptions
 4. Update this README's agent catalog
 5. Submit a pull request
+
+**Note:** All agents must be in the root directory for Claude Code's `/agents` command to detect them.
 
 ### Agent Template Structure
 ```markdown
@@ -303,5 +309,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 48
-**Last Updated:** 2025-11-16
+**Total Agents:** 49
+**Last Updated:** 2025-11-25
