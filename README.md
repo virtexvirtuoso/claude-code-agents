@@ -26,15 +26,28 @@ claude-code-agents/
 
 ## 🚀 Quick Start
 
-### Global Installation (Available in All Projects)
+### One-Line Install (Recommended)
+
+**Fresh install** (no existing agents):
 ```bash
-# Clone directly to your global Claude agents directory
 git clone https://github.com/virtexvirtuoso/claude-code-agents.git ~/.claude/agents
+```
+
+**Smart install** (handles existing setup):
+```bash
+[ -d ~/.claude/agents/.git ] && cd ~/.claude/agents && git pull || \
+([ -d ~/.claude/agents ] && mv ~/.claude/agents ~/.claude/agents.backup.$(date +%s); \
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git ~/.claude/agents)
+```
+
+**Update existing installation**:
+```bash
+cd ~/.claude/agents && git pull
 ```
 
 ### Project-Specific Installation
 ```bash
-# Clone to your project's Claude directory
+# Clone to your project's Claude directory (agents only available in this project)
 git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agents
 ```
 
@@ -43,6 +56,15 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 # In any Claude Code session, run:
 /agents
 # You should see all 54 agents listed
+```
+
+### Merge with Existing Agents
+If you have custom agents you want to keep:
+```bash
+# Clone to temp location and copy agent files
+git clone https://github.com/virtexvirtuoso/claude-code-agents.git /tmp/claude-agents
+cp /tmp/claude-agents/*.md ~/.claude/agents/
+rm -rf /tmp/claude-agents
 ```
 
 ## 📚 Agent Catalog
