@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **51 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **52 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -21,7 +21,7 @@ claude-code-agents/
 ├── 📄 optuna-optimizer.md            # Hyperparameter optimization
 ├── 📄 api-expert.md                  # REST API design & integration
 ├── 📄 qa-validation-engineer.md      # Testing & validation
-└── ... 43 more specialized agents
+└── ... 44 more specialized agents
 ```
 
 ## 🚀 Quick Start
@@ -42,7 +42,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 51 agents listed
+# You should see all 52 agents listed
 ```
 
 ## 📚 Agent Catalog
@@ -55,18 +55,19 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 
 ---
 
-### 🏗️ Architecture (6 agents)
+### 🏗️ Architecture (7 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **api-expert** | REST API design, authentication, and integration |
+| **database-architect** | Database design, schema modeling, query optimization, migrations |
 | **webhook-expert** | Webhook configuration and event processing |
 | **architecture-simplifier** | Reduces complexity and refactors system architecture |
 | **async-pattern-analyzer** | Analyzes async/await patterns and concurrency issues |
 | **cache-implementation-reviewer** | Reviews caching strategies (Redis, CDN, database) |
 | **dependency-injection-expert** | Implements DI patterns and IoC containers |
 
-**When to use:** API design, webhook integration, system redesign, performance optimization, technical debt reduction, SOLID principles
+**When to use:** API design, database schema design, query optimization, webhook integration, system redesign, performance optimization, technical debt reduction, SOLID principles
 
 ---
 
@@ -270,7 +271,7 @@ Use the architecture-simplifier to refactor this monolith
 
 | Category | Agent Count | Primary Use Cases |
 |----------|------------|-------------------|
-| **Architecture** | 6 | APIs, webhooks, system design, performance, patterns |
+| **Architecture** | 7 | APIs, databases, webhooks, system design, performance, patterns |
 | **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
 | **AI Engineering** | 1 | Prompt design, LLM optimization, evaluation frameworks |
 | **Security** | 1 | Vulnerability assessment, secure code review, compliance |
@@ -282,7 +283,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **51** | All development workflows |
+| **TOTAL** | **52** | All development workflows |
 
 ---
 
@@ -333,5 +334,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 51
-**Last Updated:** 2025-11-25
+**Total Agents:** 52
+**Last Updated:** 2025-11-26
