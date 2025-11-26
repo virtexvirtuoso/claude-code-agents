@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **52 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **54 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -21,7 +21,7 @@ claude-code-agents/
 ├── 📄 optuna-optimizer.md            # Hyperparameter optimization
 ├── 📄 api-expert.md                  # REST API design & integration
 ├── 📄 qa-validation-engineer.md      # Testing & validation
-└── ... 44 more specialized agents
+└── ... 46 more specialized agents
 ```
 
 ## 🚀 Quick Start
@@ -42,7 +42,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 52 agents listed
+# You should see all 54 agents listed
 ```
 
 ## 📚 Agent Catalog
@@ -150,10 +150,12 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 
 ---
 
-### 📣 Marketing (7 agents)
+### 📣 Marketing (9 agents)
 
 | Agent | Description |
 |-------|-------------|
+| **conversion-copywriter** | Persuasive ad copy, landing pages, email sequences, CTAs |
+| **paid-media-optimizer** | Google/Meta/LinkedIn Ads, campaign structure, ROAS optimization |
 | **growth-hacker** | Viral growth loops and experimentation |
 | **content-creator** | Multi-platform content strategy |
 | **app-store-optimizer** | ASO for iOS/Android app stores |
@@ -162,7 +164,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 | **reddit-community-builder** | Authentic Reddit community engagement |
 | **instagram-curator** | Visual content and feed aesthetics |
 
-**When to use:** Growth strategy, content marketing, social media, app store optimization, viral marketing
+**When to use:** Growth strategy, conversion copywriting, paid advertising, content marketing, social media, app store optimization, viral marketing
 
 ---
 
@@ -278,12 +280,12 @@ Use the architecture-simplifier to refactor this monolith
 | **Trading** | 5 | Finance, trading systems, dashboards, TradingView Pine Script |
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
-| **Marketing** | 7 | Growth, content, social media |
+| **Marketing** | 9 | Growth, copywriting, paid ads, content, social media |
 | **Operations** | 5 | Infrastructure, support, compliance |
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **52** | All development workflows |
+| **TOTAL** | **54** | All development workflows |
 
 ---
 
@@ -334,5 +336,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 52
+**Total Agents:** 54
 **Last Updated:** 2025-11-26
