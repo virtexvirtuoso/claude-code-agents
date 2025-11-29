@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **55 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **56 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -21,7 +21,7 @@ claude-code-agents/
 ├── 📄 optuna-optimizer.md            # Hyperparameter optimization
 ├── 📄 api-expert.md                  # REST API design & integration
 ├── 📄 qa-validation-engineer.md      # Testing & validation
-└── ... 47 more specialized agents
+└── ... 48 more specialized agents
 ```
 
 ## 🚀 Quick Start
@@ -55,7 +55,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 55 agents listed
+# You should see all 56 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -190,18 +190,19 @@ rm -rf /tmp/claude-agents
 
 ---
 
-### 🔧 Operations (6 agents)
+### 🔧 Operations (7 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **analytics-reporter** | Data insights and executive reporting |
 | **contract-legal-expert** | Contract drafting, review, negotiation, IP protection |
 | **infrastructure-maintainer** | Cost-effective scaling and reliability |
+| **ip-legal-guardian** | IP protection, open-source licensing, patents, trade secrets |
 | **support-responder** | Customer service excellence |
 | **finance-tracker** | Financial planning and budgeting |
 | **legal-compliance-checker** | Regulatory compliance and risk management |
 
-**When to use:** Business operations, contract drafting/review, infrastructure scaling, customer support, financial management, legal compliance
+**When to use:** Business operations, contract drafting/review, IP protection, open-source compliance, infrastructure scaling, customer support, financial management, legal compliance
 
 ---
 
@@ -304,11 +305,11 @@ Use the architecture-simplifier to refactor this monolith
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
 | **Marketing** | 9 | Growth, copywriting, paid ads, content, social media |
-| **Operations** | 6 | Infrastructure, contracts, support, compliance |
+| **Operations** | 7 | Infrastructure, contracts, IP, support, compliance |
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **55** | All development workflows |
+| **TOTAL** | **56** | All development workflows |
 
 ---
 
@@ -359,5 +360,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 55
+**Total Agents:** 56
 **Last Updated:** 2025-11-26
