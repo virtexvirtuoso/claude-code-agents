@@ -197,11 +197,45 @@ Analysis of gaps in the current agent collection and recommended additions.
 
 ---
 
+### Entrepreneur-Focused Agents (NEW)
+
+#### pitch-strategist ✅ ADDED
+- **Category**: Fundraising
+- **Covers**: Investor pitch decks, narrative frameworks, slide-by-slide guidance, Q&A prep, stage-specific advice
+- **Why critical**: Every startup needs to pitch - investors, customers, hires
+
+#### investor-relations ✅ ADDED
+- **Category**: Fundraising
+- **Covers**: Term sheet analysis, cap table management, due diligence prep, investor updates, board management
+- **Why critical**: Navigating VC relationships and deal terms
+
+#### business-model-architect ✅ ADDED
+- **Category**: Business Strategy
+- **Covers**: Revenue models, pricing strategy, unit economics, business model canvas, financial modeling
+- **Why critical**: Foundation of every sustainable business
+
+#### competitive-analyst ✅ ADDED
+- **Category**: Business Strategy
+- **Covers**: Market mapping, competitor analysis, positioning frameworks, battlecards, win/loss analysis
+- **Why critical**: Understanding the battlefield to choose where to fight
+
+#### market-validator ✅ ADDED
+- **Category**: Business Strategy
+- **Covers**: TAM/SAM/SOM sizing, customer discovery, PMF assessment, validation experiments
+- **Why critical**: Validate before you build
+
+---
+
 ## Implementation Status
 
 | Agent | Status | Commit |
 |-------|--------|--------|
 | technical-writer | ✅ Added | 57a8d66 |
+| pitch-strategist | ✅ Added | 722293e |
+| investor-relations | ✅ Added | 722293e |
+| business-model-architect | ✅ Added | 722293e |
+| competitive-analyst | ✅ Added | 722293e |
+| market-validator | ✅ Added | 722293e |
 | rag-architect | ⏳ Pending | - |
 | observability-architect | ⏳ Pending | - |
 | accessibility-expert | ⏳ Pending | - |
@@ -219,7 +253,9 @@ Analysis of gaps in the current agent collection and recommended additions.
 | Operations | 7 | 8 | +1 (observability-architect) |
 | Engineering | 7 | 8 | +1 (kubernetes-expert) |
 | Documentation | 0 | 1 | +1 (technical-writer) |
-| **Total** | **56** | **63** | **+7** |
+| Fundraising | 0 | 2 | +2 (pitch-strategist, investor-relations) |
+| Business Strategy | 0 | 3 | +3 (business-model-architect, competitive-analyst, market-validator) |
+| **Total** | **56** | **68** | **+12** |
 
 ---
 
