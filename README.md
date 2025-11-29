@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **56 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **62 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -21,7 +21,7 @@ claude-code-agents/
 ├── 📄 optuna-optimizer.md            # Hyperparameter optimization
 ├── 📄 api-expert.md                  # REST API design & integration
 ├── 📄 qa-validation-engineer.md      # Testing & validation
-└── ... 48 more specialized agents
+└── ... 54 more specialized agents
 ```
 
 ## 🚀 Quick Start
@@ -55,7 +55,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 56 agents listed
+# You should see all 62 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -231,6 +231,30 @@ rm -rf /tmp/claude-agents
 
 ---
 
+### 📝 Documentation (1 agent)
+
+| Agent | Description |
+|-------|-------------|
+| **technical-writer** | API docs, READMEs, tutorials, runbooks, architecture docs |
+
+**When to use:** Creating comprehensive documentation, API references, developer guides, onboarding materials
+
+---
+
+### 🚀 Entrepreneur (5 agents)
+
+| Agent | Description |
+|-------|-------------|
+| **pitch-strategist** | Investor pitch decks, narrative frameworks, Q&A prep |
+| **investor-relations** | Term sheets, cap tables, due diligence, investor updates |
+| **business-model-architect** | Revenue models, pricing strategy, unit economics |
+| **competitive-analyst** | Market mapping, competitor analysis, positioning |
+| **market-validator** | TAM/SAM/SOM, customer discovery, PMF assessment |
+
+**When to use:** Fundraising, pitch preparation, business strategy, market analysis, competitive intelligence, startup validation
+
+---
+
 ## 💡 Usage Guide
 
 ### Invoking Agents in Claude Code
@@ -308,8 +332,10 @@ Use the architecture-simplifier to refactor this monolith
 | **Operations** | 7 | Infrastructure, contracts, IP, support, compliance |
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
+| **Documentation** | 1 | Technical writing, API docs, tutorials |
+| **Entrepreneur** | 5 | Fundraising, pitch decks, business strategy, market validation |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **56** | All development workflows |
+| **TOTAL** | **62** | All development workflows |
 
 ---
 
@@ -360,5 +386,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 56
+**Total Agents:** 62
 **Last Updated:** 2025-11-26
