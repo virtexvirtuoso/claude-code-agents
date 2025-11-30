@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **62 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **63 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -55,7 +55,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 62 agents listed
+# You should see all 63 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -93,17 +93,18 @@ rm -rf /tmp/claude-agents
 
 ---
 
-### 🔬 Analysis Tools (5 agents)
+### 🔬 Analysis Tools (6 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **data-scientist-researcher** | Rigorous data analysis and statistical modeling |
+| **data-visualization-architect** | Publication-quality visualizations, chart selection, Plotly mastery |
 | **optuna-optimizer** | Hyperparameter tuning and black-box optimization |
 | **qa-validation-engineer** | Comprehensive end-to-end validation and testing |
 | **code-documentation-auditor** | Reviews and improves documentation quality |
 | **file-organizer** | Organizes and optimizes file systems |
 
-**When to use:** Data analysis, hyperparameter optimization, hypothesis testing, code reviews, test strategy, project cleanup
+**When to use:** Data analysis, data visualization, hyperparameter optimization, hypothesis testing, code reviews, test strategy, project cleanup
 
 ---
 
@@ -322,7 +323,7 @@ Use the architecture-simplifier to refactor this monolith
 | Category | Agent Count | Primary Use Cases |
 |----------|------------|-------------------|
 | **Architecture** | 7 | APIs, databases, webhooks, system design, performance, patterns |
-| **Analysis Tools** | 5 | Testing, data science, optimization, documentation |
+| **Analysis Tools** | 6 | Testing, data science, visualization, optimization, documentation |
 | **AI Engineering** | 1 | Prompt design, LLM optimization, evaluation frameworks |
 | **Security** | 1 | Vulnerability assessment, secure code review, compliance |
 | **Trading** | 5 | Finance, trading systems, dashboards, TradingView Pine Script |
@@ -335,7 +336,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Documentation** | 1 | Technical writing, API docs, tutorials |
 | **Entrepreneur** | 5 | Fundraising, pitch decks, business strategy, market validation |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **62** | All development workflows |
+| **TOTAL** | **63** | All development workflows |
 
 ---
 
@@ -386,5 +387,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 62
+**Total Agents:** 63
 **Last Updated:** 2025-11-26
