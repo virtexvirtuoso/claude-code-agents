@@ -1,7 +1,7 @@
 ---
 name: dependency-injection-expert
 description: Implements DI patterns, IoC containers, and decouples components
-model: sonnet
+model: inherit
 color: orange
 ---
 

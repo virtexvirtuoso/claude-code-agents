@@ -1,7 +1,7 @@
 ---
 name: infrastructure-maintainer
 description: Scale without breaking the bank
-model: sonnet
+model: inherit
 color: steel
 ---
 

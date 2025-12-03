@@ -1,7 +1,7 @@
 ---
 name: test-writer-fixer
 description: Write tests that catch real bugs
-model: sonnet
+model: inherit
 color: red
 ---
 

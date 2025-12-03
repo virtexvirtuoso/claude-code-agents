@@ -1,7 +1,7 @@
 ---
 name: competitive-analyst
 description: Use this agent when you need to analyze competitors, understand market positioning, conduct market research, or develop competitive strategy. Essential for pitch decks and strategic planning.\n\nExamples:\n\n<example>\nContext: Founder needs competitive slide for pitch deck.\nuser: "I need to understand my competitive landscape for my investor deck. We're in the CRM space."\nassistant: "I'll use the competitive-analyst agent to map your competitive landscape, identify your positioning, and create a compelling competitive narrative."\n<Task tool call to competitive-analyst agent>\n</example>\n\n<example>\nContext: Founder wants to differentiate.\nuser: "Three well-funded competitors just launched similar features. How do we differentiate?"\nassistant: "Let me use the competitive-analyst agent to analyze competitor positioning and identify differentiation opportunities."\n<Task tool call to competitive-analyst agent>\n</example>\n\n<example>\nContext: Founder entering a new market.\nuser: "We're expanding from the US to Europe. What does the competitive landscape look like there?"\nassistant: "I'll use the competitive-analyst agent to research the European competitive landscape and identify market entry considerations."\n<Task tool call to competitive-analyst agent>\n</example>
-model: sonnet
+model: inherit
 color: blue
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: async-pattern-analyzer
 description: Analyzes async/await patterns, concurrency, and performance bottlenecks
-model: sonnet
+model: inherit
 color: purple
 ---
 

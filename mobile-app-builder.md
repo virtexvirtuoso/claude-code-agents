@@ -1,7 +1,7 @@
 ---
 name: mobile-app-builder
 description: Create native iOS/Android experiences
-model: sonnet
+model: inherit
 color: teal
 ---
 

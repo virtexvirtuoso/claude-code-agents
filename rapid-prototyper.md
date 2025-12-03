@@ -1,7 +1,7 @@
 ---
 name: rapid-prototyper
 description: Build MVPs in days, not weeks
-model: sonnet
+model: inherit
 color: green
 ---
 

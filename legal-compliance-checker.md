@@ -1,7 +1,7 @@
 ---
 name: legal-compliance-checker
 description: Stay legal while moving fast
-model: sonnet
+model: inherit
 color: navy
 ---
 

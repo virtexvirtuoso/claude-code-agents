@@ -1,7 +1,7 @@
 ---
 name: pepe
 description: "P.E.P.E. (Prompt Engineering Process Executor) - Master orchestrator that coordinates all specialized agents for complex tasks. The conductor that turns prompts into progress."
-model: sonnet
+model: inherit
 color: green
 ---
 

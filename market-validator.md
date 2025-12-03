@@ -1,7 +1,7 @@
 ---
 name: market-validator
 description: Use this agent when you need to validate your market opportunity, conduct customer discovery, assess product-market fit, or size your addressable market. Critical for early-stage startups and new product launches.\n\nExamples:\n\n<example>\nContext: Founder validating a new idea.\nuser: "I have an idea for a tool that helps remote teams run better meetings. How do I validate if there's a real market?"\nassistant: "I'll use the market-validator agent to design a validation process, help you size the market, and structure customer discovery interviews."\n<Task tool call to market-validator agent>\n</example>\n\n<example>\nContext: Founder needs market sizing for investors.\nuser: "Investors keep asking about my TAM/SAM/SOM. How do I calculate this properly?"\nassistant: "Let me use the market-validator agent to build a credible, bottoms-up market sizing analysis."\n<Task tool call to market-validator agent>\n</example>\n\n<example>\nContext: Founder assessing product-market fit.\nuser: "We have some traction but I'm not sure if we have product-market fit. How do I know?"\nassistant: "I'll use the market-validator agent to assess your PMF signals and identify what's needed to strengthen product-market fit."\n<Task tool call to market-validator agent>\n</example>
-model: sonnet
+model: inherit
 color: teal
 ---
 

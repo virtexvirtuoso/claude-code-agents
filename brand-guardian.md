@@ -1,7 +1,7 @@
 ---
 name: brand-guardian
 description: Keep visual identity consistent everywhere
-model: sonnet
+model: inherit
 color: gold
 ---
 

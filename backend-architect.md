@@ -1,7 +1,7 @@
 ---
 name: backend-architect
 description: Design scalable APIs and server systems
-model: sonnet
+model: inherit
 color: blue
 ---
 

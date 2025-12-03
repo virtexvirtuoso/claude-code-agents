@@ -1,7 +1,7 @@
 ---
 name: api-expert
 description: REST API design, authentication, rate limiting, and integration specialist
-model: sonnet
+model: inherit
 color: yellow
 ---
 

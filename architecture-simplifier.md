@@ -1,7 +1,7 @@
 ---
 name: architecture-simplifier
 description: Reduces complexity, refactors code, and improves system architecture
-model: opus
+model: inherit
 ---
 
 

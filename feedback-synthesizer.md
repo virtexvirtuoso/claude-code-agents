@@ -1,7 +1,7 @@
 ---
 name: feedback-synthesizer
 description: Transform complaints into features
-model: sonnet
+model: inherit
 color: lime
 ---
 

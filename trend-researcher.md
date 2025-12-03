@@ -1,7 +1,7 @@
 ---
 name: trend-researcher
 description: Identify viral opportunities
-model: sonnet
+model: inherit
 color: magenta
 ---
 

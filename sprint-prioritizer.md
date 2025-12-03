@@ -1,7 +1,7 @@
 ---
 name: sprint-prioritizer
 description: Ship maximum value in 6 days
-model: sonnet
+model: inherit
 color: navy
 ---
 

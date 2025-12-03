@@ -1,7 +1,7 @@
 ---
 name: project-shipper
 description: Launch products that don't crash
-model: sonnet
+model: inherit
 color: lime
 ---
 

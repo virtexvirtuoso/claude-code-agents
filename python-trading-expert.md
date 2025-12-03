@@ -1,7 +1,7 @@
 ---
 name: python-trading-expert
 description: Expert in Python trading systems, CCXT, and exchange integrations
-model: sonnet
+model: inherit
 color: green
 ---
 

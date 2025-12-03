@@ -1,7 +1,7 @@
 ---
 name: cache-implementation-reviewer
 description: Reviews and validates caching strategies and implementations
-model: sonnet
+model: inherit
 ---
 
 

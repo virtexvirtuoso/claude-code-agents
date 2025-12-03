@@ -1,7 +1,7 @@
 ---
 name: reddit-community-builder
 description: Win Reddit without being banned
-model: sonnet
+model: inherit
 color: orange
 ---
 

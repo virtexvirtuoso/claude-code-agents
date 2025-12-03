@@ -1,7 +1,7 @@
 ---
 name: finance-tracker
 description: Keep the studio profitable
-model: sonnet
+model: inherit
 color: gold
 ---
 

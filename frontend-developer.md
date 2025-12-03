@@ -1,7 +1,7 @@
 ---
 name: frontend-developer
 description: Build blazing-fast user interfaces
-model: sonnet
+model: inherit
 color: cyan
 ---
 

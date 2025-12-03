@@ -1,7 +1,7 @@
 ---
 name: tiktok-strategist
 description: Create shareable marketing moments
-model: sonnet
+model: inherit
 color: black
 ---
 

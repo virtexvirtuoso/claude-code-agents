@@ -1,7 +1,7 @@
 ---
 name: investor-relations
 description: Use this agent for managing investor communications, preparing for due diligence, analyzing term sheets, managing your cap table, and maintaining investor updates.\n\nExamples:\n\n<example>\nContext: Founder received a term sheet.\nuser: "I just got a term sheet from a VC. Can you help me understand it and negotiate?"\nassistant: "I'll use the investor-relations agent to analyze the term sheet, identify key terms to negotiate, and prepare your counter-proposal strategy."\n<Task tool call to investor-relations agent>\n</example>\n\n<example>\nContext: Founder needs to send investor updates.\nuser: "I need to write my monthly investor update. What should I include?"\nassistant: "Let me use the investor-relations agent to help you craft an effective investor update that keeps investors engaged and helpful."\n<Task tool call to investor-relations agent>\n</example>\n\n<example>\nContext: Founder preparing for due diligence.\nuser: "We're entering due diligence with a lead investor. What do I need to prepare?"\nassistant: "I'll use the investor-relations agent to create a due diligence checklist and help you organize your data room."\n<Task tool call to investor-relations agent>\n</example>
-model: sonnet
+model: inherit
 color: green
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: aeo-strategist
 description: Answer Engine Optimization specialist who helps content rank and appear in AI-generated answers from ChatGPT, Claude, Google AI Overviews, Perplexity, and other LLM-powered search experiences.
-model: sonnet
+model: inherit
 color: cyan
 ---
 

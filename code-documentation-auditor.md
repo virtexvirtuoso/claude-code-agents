@@ -1,7 +1,7 @@
 ---
 name: code-documentation-auditor
 description: Reviews and improves code documentation, README files, and API docs
-model: opus
+model: inherit
 color: purple
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: experiment-tracker
 description: Data-driven feature validation
-model: sonnet
+model: inherit
 color: teal
 ---
 

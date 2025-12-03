@@ -1,7 +1,7 @@
 ---
 name: fintech-ux-designer
 description: Designs financial UIs, trading dashboards, and data visualizations
-model: sonnet
+model: inherit
 color: cyan
 ---
 

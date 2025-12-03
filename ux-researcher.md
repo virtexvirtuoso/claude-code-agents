@@ -1,7 +1,7 @@
 ---
 name: ux-researcher
 description: Turn user insights into product improvements
-model: sonnet
+model: inherit
 color: indigo
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: pitch-strategist
 description: Use this agent when you need to create investor pitch decks, refine your startup narrative, prepare for pitch meetings, or improve your fundraising materials.\n\nExamples:\n\n<example>\nContext: Founder preparing for a seed round.\nuser: "I'm raising a seed round and need to create my pitch deck. We're a B2B SaaS in the HR space."\nassistant: "I'll use the pitch-strategist agent to create a compelling pitch deck with the right narrative structure, slides, and investor-focused messaging."\n<Task tool call to pitch-strategist agent>\n</example>\n\n<example>\nContext: Founder wants feedback on existing deck.\nuser: "Can you review my pitch deck? I've had 10 meetings but no term sheets."\nassistant: "Let me use the pitch-strategist agent to analyze your deck, identify weaknesses, and restructure it for better investor engagement."\n<Task tool call to pitch-strategist agent>\n</example>\n\n<example>\nContext: Founder preparing for a specific VC meeting.\nuser: "I'm pitching to Sequoia next week. How should I prepare?"\nassistant: "I'll use the pitch-strategist agent to help you tailor your pitch, anticipate questions, and prepare for their specific investment thesis."\n<Task tool call to pitch-strategist agent>\n</example>
-model: sonnet
+model: inherit
 color: emerald
 ---
 

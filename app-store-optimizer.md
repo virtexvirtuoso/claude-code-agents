@@ -1,7 +1,7 @@
 ---
 name: app-store-optimizer
 description: Dominate app store search results
-model: sonnet
+model: inherit
 color: turquoise
 ---
 

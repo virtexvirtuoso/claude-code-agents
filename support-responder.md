@@ -1,7 +1,7 @@
 ---
 name: support-responder
 description: Turn angry users into advocates
-model: sonnet
+model: inherit
 color: green
 ---
 

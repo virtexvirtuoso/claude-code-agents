@@ -1,7 +1,7 @@
 ---
 name: growth-hacker
 description: Find and exploit viral growth loops
-model: sonnet
+model: inherit
 color: emerald
 ---
 

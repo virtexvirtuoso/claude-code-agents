@@ -1,7 +1,7 @@
 ---
 name: ui-designer
 description: Design interfaces developers can actually build
-model: sonnet
+model: inherit
 color: pink
 ---
 

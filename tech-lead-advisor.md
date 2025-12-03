@@ -1,7 +1,7 @@
 ---
 name: tech-lead-advisor
 description: Provides technical leadership, best practices, and strategic guidance
-model: sonnet
+model: inherit
 ---
 
 

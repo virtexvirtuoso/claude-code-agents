@@ -1,7 +1,7 @@
 ---
 name: content-creator
 description: Generate content across all platforms
-model: sonnet
+model: inherit
 color: coral
 ---
 

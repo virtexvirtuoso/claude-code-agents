@@ -1,7 +1,7 @@
 ---
 name: visual-storyteller
 description: Create visuals that convert and share
-model: sonnet
+model: inherit
 color: violet
 ---
 

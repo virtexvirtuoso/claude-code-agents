@@ -1,7 +1,7 @@
 ---
 name: studio-producer
 description: Keep teams shipping, not meeting
-model: sonnet
+model: inherit
 color: bronze
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: webhook-expert
 description: Webhook configuration, event processing, and callback handling expert
-model: sonnet
+model: inherit
 color: yellow
 ---
 

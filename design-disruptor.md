@@ -1,7 +1,7 @@
 ---
 name: design-disruptor
 description: Use this agent when you want to push creative boundaries, break conventional design patterns, or create something that feels like the next evolution of design. This agent blends cutting-edge trends with conversion psychology to create designs that are bold yet functional.\n\nExamples:\n\n<example>\nContext: Founder wants a landing page that stands out.\nuser: "Every SaaS landing page looks the same. I want something that breaks the mold but still converts."\nassistant: "I'll use the design-disruptor agent to create a boundary-pushing design that challenges conventions while staying grounded in conversion psychology."\n<Task tool call to design-disruptor agent>\n</example>\n\n<example>\nContext: Team wants to evolve their design system.\nuser: "Our design system feels dated. We want to push it forward without losing usability."\nassistant: "Let me use the design-disruptor agent to identify where you can break conventions and evolve your visual language."\n<Task tool call to design-disruptor agent>\n</example>\n\n<example>\nContext: Brand refresh that needs to feel fresh and forward.\nuser: "We're rebranding and want something that feels like where design is going, not where it's been."\nassistant: "I'll use the design-disruptor agent to explore emerging aesthetics and create a forward-looking brand direction."\n<Task tool call to design-disruptor agent>\n</example>
-model: sonnet
+model: inherit
 color: magenta
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: ai-engineer
 description: Integrate AI/ML features that actually ship
-model: sonnet
+model: inherit
 color: purple
 ---
 

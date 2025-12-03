@@ -1,7 +1,7 @@
 ---
 name: analytics-reporter
 description: Turn data into actionable insights
-model: sonnet
+model: inherit
 color: purple
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: instagram-curator
 description: Master the visual content game
-model: sonnet
+model: inherit
 color: gradient
 ---
 

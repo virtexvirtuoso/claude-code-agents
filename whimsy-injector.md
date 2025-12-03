@@ -1,7 +1,7 @@
 ---
 name: whimsy-injector
 description: Add delight to every interaction
-model: sonnet
+model: inherit
 color: rainbow
 ---
 

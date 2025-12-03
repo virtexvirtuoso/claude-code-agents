@@ -1,7 +1,7 @@
 ---
 name: twitter-engager
 description: Ride trends to viral engagement
-model: sonnet
+model: inherit
 color: sky
 ---
 

@@ -1,7 +1,7 @@
 ---
 name: devops-automator
 description: Deploy continuously without breaking things
-model: sonnet
+model: inherit
 color: orange
 ---
 

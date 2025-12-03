@@ -1,7 +1,7 @@
 ---
 name: business-model-architect
 description: Use this agent when you need to design or refine your business model, pricing strategy, revenue model, or unit economics. Essential for startups figuring out how to make money.\n\nExamples:\n\n<example>\nContext: Founder building a new SaaS product.\nuser: "I'm building a project management tool. How should I price it and what business model makes sense?"\nassistant: "I'll use the business-model-architect agent to analyze your market, design a pricing strategy, and model your unit economics."\n<Task tool call to business-model-architect agent>\n</example>\n\n<example>\nContext: Founder needs to improve unit economics.\nuser: "Our CAC is too high and LTV isn't where it needs to be. Help me fix our business model."\nassistant: "Let me use the business-model-architect agent to diagnose your unit economics issues and recommend improvements."\n<Task tool call to business-model-architect agent>\n</example>\n\n<example>\nContext: Founder exploring monetization.\nuser: "We have 50K free users but no revenue. How do we monetize?"\nassistant: "I'll use the business-model-architect agent to design a monetization strategy that converts free users while maintaining growth."\n<Task tool call to business-model-architect agent>\n</example>
-model: sonnet
+model: inherit
 color: yellow
 ---
 
