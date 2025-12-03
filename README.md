@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **63 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **64 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -55,7 +55,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 63 agents listed
+# You should see all 64 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -173,10 +173,11 @@ rm -rf /tmp/claude-agents
 
 ---
 
-### 📣 Marketing (9 agents)
+### 📣 Marketing (10 agents)
 
 | Agent | Description |
 |-------|-------------|
+| **aeo-strategist** | Answer Engine Optimization for AI search (ChatGPT, Claude, Perplexity, Google AI Overviews) |
 | **conversion-copywriter** | Persuasive ad copy, landing pages, email sequences, CTAs |
 | **paid-media-optimizer** | Google/Meta/LinkedIn Ads, campaign structure, ROAS optimization |
 | **growth-hacker** | Viral growth loops and experimentation |
@@ -187,7 +188,7 @@ rm -rf /tmp/claude-agents
 | **reddit-community-builder** | Authentic Reddit community engagement |
 | **instagram-curator** | Visual content and feed aesthetics |
 
-**When to use:** Growth strategy, conversion copywriting, paid advertising, content marketing, social media, app store optimization, viral marketing
+**When to use:** Growth strategy, conversion copywriting, paid advertising, content marketing, social media, app store optimization, viral marketing, AI answer engine visibility
 
 ---
 
@@ -329,14 +330,14 @@ Use the architecture-simplifier to refactor this monolith
 | **Trading** | 5 | Finance, trading systems, dashboards, TradingView Pine Script |
 | **Design** | 6 | UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
-| **Marketing** | 9 | Growth, copywriting, paid ads, content, social media |
+| **Marketing** | 10 | Growth, copywriting, paid ads, content, social media, AEO |
 | **Operations** | 7 | Infrastructure, contracts, IP, support, compliance |
 | **Product** | 5 | Product management, experimentation |
 | **Team Management** | 2 | Leadership, productivity |
 | **Documentation** | 1 | Technical writing, API docs, tutorials |
 | **Entrepreneur** | 5 | Fundraising, pitch decks, business strategy, market validation |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **63** | All development workflows |
+| **TOTAL** | **64** | All development workflows |
 
 ---
 
@@ -387,5 +388,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 63
-**Last Updated:** 2025-11-26
+**Total Agents:** 64
+**Last Updated:** 2025-12-02
