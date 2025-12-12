@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **71 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **72 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -58,7 +58,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 71 agents listed
+# You should see all 72 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -123,13 +123,14 @@ rm -rf /tmp/claude-agents
 
 ---
 
-### 🔒 Security (1 agent)
+### 🔒 Security (2 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **security-auditor** | OWASP Top 10, vulnerability assessment, secure code review, compliance |
+| **api-security-specialist** | API security, OAuth2/OIDC, JWT, secrets management, rate limiting, CORS, webhook security, exchange API security |
 
-**When to use:** Security audits, vulnerability assessment, authentication/authorization review, pre-deployment security checks, compliance validation (SOC 2, PCI-DSS, HIPAA), secrets management, container security, penetration testing guidance
+**When to use:** Security audits, vulnerability assessment, API authentication, OAuth2/JWT implementation, secrets rotation (Vault/AWS), rate limiting, CORS configuration, webhook signature verification, exchange API security, API key lifecycle management, trading system security
 
 ---
 
@@ -370,7 +371,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Architecture** | 8 | APIs, databases, webhooks, system design, real-time systems |
 | **Analysis Tools** | 6 | Testing, data science, visualization, optimization |
 | **AI Engineering** | 2 | Prompt design, MLOps, model deployment |
-| **Security** | 1 | Vulnerability assessment, secure code review |
+| **Security** | 2 | Vulnerability assessment, API security, OAuth2/JWT, secrets management |
 | **Trading & Crypto** | 10 | Finance, trading, on-chain analytics, quantitative strategies |
 | **Design** | 7 | Pixel-perfect layouts, UI/UX, branding, visual design |
 | **Engineering** | 7 | Full-stack development, DevOps |
@@ -381,7 +382,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Documentation** | 1 | Technical writing, API docs |
 | **Entrepreneur** | 5 | Fundraising, pitch decks, market validation |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **71** | All development workflows |
+| **TOTAL** | **72** | All development workflows |
 
 ---
 
@@ -425,5 +426,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 71
+**Total Agents:** 72
 **Last Updated:** 2025-12-12
