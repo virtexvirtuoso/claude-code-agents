@@ -5,7 +5,7 @@ ignore: true
 
 # Claude Code Agents Collection
 
-A comprehensive collection of **75 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
+A comprehensive collection of **76 specialized AI agents** for Claude Code, designed to enhance development workflows across software engineering, AI/LLM development, trading systems, security, design, marketing, operations, and product management.
 
 ## 📁 Directory Structure
 
@@ -58,7 +58,7 @@ git clone https://github.com/virtexvirtuoso/claude-code-agents.git .claude/agent
 ```bash
 # In any Claude Code session, run:
 /agents
-# You should see all 75 agents listed
+# You should see all 76 agents listed
 ```
 
 ### Merge with Existing Agents
@@ -154,11 +154,12 @@ rm -rf /tmp/claude-agents
 
 ---
 
-### 🎨 Design (7 agents)
+### 🎨 Design (8 agents)
 
 | Agent | Description |
 |-------|-------------|
 | **css-layout-perfectionist** | Pixel-perfect HTML/CSS alignment, pixel-perfect consistency across breakpoints/browsers, Flexbox/Grid mastery, layout debugging with webapp-testing |
+| **reductive-designer** | Jony Ive-inspired design philosophy—radical simplicity, obsessive refinement, "remove until it breaks" methodology |
 | **ui-designer** | Practical interface design bridging design and code |
 | **ux-researcher** | User research and usability testing |
 | **brand-guardian** | Visual identity consistency and brand guidelines |
@@ -166,7 +167,7 @@ rm -rf /tmp/claude-agents
 | **whimsy-injector** | Delightful interactions and playful design |
 | **design-disruptor** | Boundary-pushing design, next-gen aesthetics |
 
-**When to use:** Pixel-perfect layout implementation, HTML/CSS debugging, responsive design, UI/UX design, design systems, user research, branding, innovative visual design
+**When to use:** Pixel-perfect layout implementation, HTML/CSS debugging, responsive design, Apple-level refinement, UI/UX design, design systems, user research, branding, innovative visual design
 
 ---
 
@@ -375,7 +376,7 @@ Use the architecture-simplifier to refactor this monolith
 | **AI Engineering** | 2 | Prompt design, MLOps, model deployment |
 | **Security** | 3 | App vulnerabilities, API/auth security, server/infrastructure hardening |
 | **Trading & Crypto** | 10 | Finance, trading, on-chain analytics, quantitative strategies |
-| **Design** | 7 | Pixel-perfect layouts, UI/UX, branding, visual design |
+| **Design** | 8 | Pixel-perfect layouts, Ive-style refinement, UI/UX, branding |
 | **Engineering** | 8 | Full-stack development, JavaScript/TypeScript, DevOps |
 | **Marketing** | 10 | Growth, copywriting, paid ads, social media |
 | **Operations** | 7 | Infrastructure, contracts, IP, compliance |
@@ -384,7 +385,7 @@ Use the architecture-simplifier to refactor this monolith
 | **Documentation** | 1 | Technical writing, API docs |
 | **Entrepreneur** | 5 | Fundraising, pitch decks, market validation |
 | **Orchestrator** | 1 | Multi-agent workflow coordination |
-| **TOTAL** | **75** | All development workflows |
+| **TOTAL** | **76** | All development workflows |
 
 ---
 
@@ -428,5 +429,5 @@ For questions or issues:
 - Use `pepe` for complex multi-agent tasks
 
 **Maintained by:** virtexvirtuoso
-**Total Agents:** 75
-**Last Updated:** 2025-12-17
+**Total Agents:** 76
+**Last Updated:** 2025-12-22
