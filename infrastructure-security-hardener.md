@@ -1,43 +1,6 @@
 ---
 name: infrastructure-security-hardener
 description: Use this agent for server hardening, SSH security, firewall configuration, web server security, systemd hardening, intrusion detection, and infrastructure monitoring. Specializes in Linux server security, fail2ban, Nginx/Apache hardening, Docker security, and production deployment security.
-
-Examples:
-
-<example>
-Context: User has a VPS running production services with default configurations.
-user: "Harden my VPS running Ubuntu with Nginx, Python apps, and Docker containers"
-assistant: "I'll use the infrastructure-security-hardener agent to audit and harden your VPS with SSH security, firewall rules, Nginx hardening, systemd security, and intrusion detection."
-<Task tool call to infrastructure-security-hardener agent>
-</example>
-
-<example>
-Context: User needs to secure SSH access after seeing brute force attempts.
-user: "I'm getting tons of SSH login attempts. How do I secure SSH properly?"
-assistant: "Let me use the infrastructure-security-hardener agent to implement SSH hardening with key-only auth, fail2ban, port changes, and two-factor authentication."
-<Task tool call to infrastructure-security-hardener agent>
-</example>
-
-<example>
-Context: User needs SSL/TLS configuration for production.
-user: "Configure Nginx with SSL and get an A+ rating on SSL Labs"
-assistant: "I'll use the infrastructure-security-hardener agent to configure SSL/TLS with modern ciphers, HSTS, OCSP stapling, and security headers for an A+ rating."
-<Task tool call to infrastructure-security-hardener agent>
-</example>
-
-<example>
-Context: User's systemd services are running with too many privileges.
-user: "Audit my systemd services and reduce their privileges"
-assistant: "I'll engage the infrastructure-security-hardener agent to implement systemd security directives like NoNewPrivileges, PrivateTmp, and resource limits."
-<Task tool call to infrastructure-security-hardener agent>
-</example>
-
-<example>
-Context: User needs Docker container security.
-user: "Review my Docker setup and make containers more secure"
-assistant: "Let me use the infrastructure-security-hardener agent to implement non-root users, read-only filesystems, capability dropping, and container scanning."
-<Task tool call to infrastructure-security-hardener agent>
-</example>
 model: inherit
 color: orange
 ---

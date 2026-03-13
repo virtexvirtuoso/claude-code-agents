@@ -1,43 +1,6 @@
 ---
 name: javascript-typescript-expert
 description: Use this agent for JavaScript and TypeScript language expertise, including modern ES features, TypeScript type system mastery, Node.js runtime, async patterns, build tooling, and code quality. Focuses on writing clean, idiomatic, type-safe code with proper error handling and testing. Distinct from frontend-developer (UI-focused) by focusing on the language itself, not frameworks or styling.
-
-Examples:
-
-<example>
-Context: User needs help with complex TypeScript generics.
-user: "I'm struggling to type this function that maps over object values while preserving keys."
-assistant: "I'll use the javascript-typescript-expert agent to help you create a properly typed generic function with mapped types."
-<Task tool call to javascript-typescript-expert agent>
-</example>
-
-<example>
-Context: User has async/await issues causing race conditions.
-user: "My Promise.all calls are sometimes returning stale data. What's wrong with my async logic?"
-assistant: "Let me use the javascript-typescript-expert agent to analyze your async patterns and identify the race condition."
-<Task tool call to javascript-typescript-expert agent>
-</example>
-
-<example>
-Context: User needs Node.js backend optimization.
-user: "My Node.js API is blocking the event loop during heavy computations."
-assistant: "I'll engage the javascript-typescript-expert agent to analyze your event loop blocking and implement proper async patterns or worker threads."
-<Task tool call to javascript-typescript-expert agent>
-</example>
-
-<example>
-Context: User wants to configure TypeScript and build tools.
-user: "Help me set up a monorepo with proper tsconfig paths and build configuration."
-assistant: "I'll use the javascript-typescript-expert agent to configure your TypeScript monorepo with proper module resolution and build tooling."
-<Task tool call to javascript-typescript-expert agent>
-</example>
-
-<example>
-Context: User needs help with type narrowing.
-user: "TypeScript keeps complaining that my value could be undefined even after I checked it."
-assistant: "Let me use the javascript-typescript-expert agent to implement proper type guards and narrowing for your use case."
-<Task tool call to javascript-typescript-expert agent>
-</example>
 model: inherit
 color: yellow
 ---
