@@ -48,7 +48,7 @@ assistant: "I'll use the contract-legal-expert agent to audit these contracts fo
 Contract audits for regulatory changes are essential for ongoing compliance. The agent will flag outdated terms and recommend revisions.
 </commentary>
 </example>
-model: inherit
+model: opus
 color: purple
 ---
 

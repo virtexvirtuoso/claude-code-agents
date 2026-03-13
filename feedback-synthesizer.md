@@ -1,6 +1,6 @@
 ---
 name: feedback-synthesizer
-description: Transform complaints into features
+description: Use this agent for analyzing user feedback, synthesizing themes from support tickets and reviews, and translating complaints into actionable feature requirements. This includes sentiment analysis, theme extraction, feature prioritization from feedback data, and designing effective feedback collection loops.
 model: inherit
 color: lime
 ---

@@ -1,6 +1,6 @@
 ---
 name: app-store-optimizer
-description: Dominate app store search results
+description: Use this agent for App Store (iOS) and Google Play optimization. This includes keyword research and optimization, A/B testing store listings, screenshot and preview video strategy, rating and review management, competitive ASO analysis, and conversion rate optimization for app downloads.
 model: inherit
 color: turquoise
 ---

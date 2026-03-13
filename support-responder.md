@@ -1,6 +1,6 @@
 ---
 name: support-responder
-description: Turn angry users into advocates
+description: Use this agent for crafting customer support responses, handling escalations, and turning negative experiences into positive outcomes. This includes empathetic response templates, de-escalation strategies, FAQ creation, support playbook development, and proactive communication for known issues.
 model: inherit
 color: green
 ---

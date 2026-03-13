@@ -1,6 +1,6 @@
 ---
 name: experiment-tracker
-description: Data-driven feature validation
+description: Use this agent for designing A/B tests, tracking experiment results, and data-driven feature validation. This includes experiment design with proper controls, statistical significance calculation, feature flag management, results interpretation, and building experimentation culture.
 model: inherit
 color: teal
 ---

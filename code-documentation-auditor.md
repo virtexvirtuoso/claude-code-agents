@@ -1,6 +1,6 @@
 ---
 name: code-documentation-auditor
-description: Reviews and improves code documentation, README files, and API docs
+description: Use this agent for reviewing and improving code documentation quality, README files, and API documentation. This includes auditing docstring coverage, API doc completeness, README structure, inline comment quality, and ensuring documentation stays synchronized with code changes. Distinct from technical-writer (creating docs from scratch) and markdown-docs skill (markdown formatting) by focusing on auditing and improving existing documentation.
 model: inherit
 color: purple
 ---

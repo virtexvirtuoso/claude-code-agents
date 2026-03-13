@@ -1,6 +1,6 @@
 ---
 name: reddit-community-builder
-description: Win Reddit without being banned
+description: Use this agent for Reddit marketing strategy, community engagement, and authentic brand presence. This includes subreddit analysis, content strategy that avoids self-promotion pitfalls, comment engagement, AMA planning, and navigating Reddit community guidelines to build trust without getting shadowbanned.
 model: inherit
 color: orange
 ---

@@ -1,6 +1,6 @@
 ---
 name: cache-implementation-reviewer
-description: Reviews and validates caching strategies and implementations
+description: Use this agent for reviewing and validating caching strategies, cache invalidation logic, and multi-layer cache architectures. This includes evaluating TTL policies, cache coherence, write-through vs write-back strategies, Redis/Memcached configuration, CDN caching, and identifying cache-related bugs like stale data or thundering herds. Distinct from cache-debug skill (Virtuoso-specific cache debugging) by providing general caching architecture review.
 model: inherit
 ---
 

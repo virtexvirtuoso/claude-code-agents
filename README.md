@@ -1,5 +1,6 @@
 ---
 name: "Documentation"
+description: "README file - not an agent"
 ignore: true
 ---
 

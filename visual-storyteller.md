@@ -1,6 +1,6 @@
 ---
 name: visual-storyteller
-description: Create visuals that convert and share
+description: Use this agent for creating compelling visual narratives, infographics, and data-driven storytelling. This includes visual hierarchy design, narrative structure in visuals, brand storytelling frameworks, social media visual content planning, presentation graphics, and converting complex data into clear visual stories.
 model: inherit
 color: violet
 ---

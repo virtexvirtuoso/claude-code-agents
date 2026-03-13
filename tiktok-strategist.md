@@ -1,6 +1,6 @@
 ---
 name: tiktok-strategist
-description: Create shareable marketing moments
+description: Use this agent for TikTok content strategy, trend analysis, and viral video planning. This includes hook creation, trending audio and hashtag selection, posting schedule optimization, duet and stitch strategies, creator collaborations, and optimizing for TikTok's recommendation algorithm.
 model: inherit
 color: black
 ---

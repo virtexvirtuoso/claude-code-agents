@@ -1,6 +1,6 @@
 ---
 name: api-expert
-description: REST API design, authentication, rate limiting, and integration specialist
+description: Use this agent for REST API design, authentication implementation, rate limiting, and third-party API integration. This includes RESTful endpoint design, OAuth/JWT authentication flows, API versioning strategies, webhook implementation, OpenAPI/Swagger documentation, and debugging API integration issues. Distinct from api-security-specialist (deep security audits) by focusing on API design and integration patterns.
 model: inherit
 color: yellow
 ---

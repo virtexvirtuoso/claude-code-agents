@@ -1,6 +1,6 @@
 ---
 name: trend-researcher
-description: Identify viral opportunities
+description: Use this agent for identifying emerging trends, viral opportunities, and market shifts across social media, technology, and consumer behavior. This includes trend velocity analysis, lifecycle stage assessment, competitive saturation evaluation, and early-mover opportunity identification.
 model: inherit
 color: magenta
 ---

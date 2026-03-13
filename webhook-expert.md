@@ -1,6 +1,6 @@
 ---
 name: webhook-expert
-description: Webhook configuration, event processing, and callback handling expert
+description: Use this agent for webhook architecture, event processing pipelines, and callback handling. This includes webhook endpoint design, signature verification (HMAC), idempotency implementation, retry logic with exponential backoff, payload processing, dead letter queues, and integrating with platforms like GitHub, Stripe, Slack, and Twilio.
 model: inherit
 color: yellow
 ---

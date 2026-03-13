@@ -1,6 +1,6 @@
 ---
 name: studio-producer
-description: Keep teams shipping, not meeting
+description: Use this agent for project management, team coordination, and shipping accountability in creative and engineering teams. This includes timeline management, blocker removal, standup facilitation, cross-functional coordination, resource allocation, and keeping teams focused on delivering rather than meeting.
 model: inherit
 color: bronze
 ---

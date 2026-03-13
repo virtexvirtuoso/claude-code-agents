@@ -1,6 +1,6 @@
 ---
 name: finance-tracker
-description: Keep the studio profitable
+description: Use this agent for financial planning, budgeting, revenue tracking, and profitability analysis for studios and small businesses. This includes P&L management, cash flow forecasting, expense categorization, burn rate calculation, unit economics, and creating financial reports and projections.
 model: inherit
 color: gold
 ---

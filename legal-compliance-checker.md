@@ -1,6 +1,6 @@
 ---
 name: legal-compliance-checker
-description: Stay legal while moving fast
+description: Use this agent for regulatory compliance assessment, privacy policy review, and legal risk identification for startups and software products. This includes GDPR, CCPA, SOC 2, HIPAA requirements analysis, terms of service drafting, open-source license compliance, and understanding regulatory obligations. Distinct from contract-legal-expert (contract drafting) and ip-legal-guardian (IP protection) by focusing on regulatory compliance.
 model: inherit
 color: navy
 ---

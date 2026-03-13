@@ -1,6 +1,6 @@
 ---
 name: growth-hacker
-description: Find and exploit viral growth loops
+description: Use this agent for identifying and implementing viral growth loops, user acquisition funnels, and retention strategies. This includes referral program design, activation funnel optimization, virality coefficient analysis, retention hook implementation, and growth experimentation frameworks (ICE, PIE scoring).
 model: inherit
 color: emerald
 ---

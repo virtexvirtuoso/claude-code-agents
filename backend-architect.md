@@ -1,7 +1,7 @@
 ---
 name: backend-architect
-description: Design scalable APIs and server systems
-model: inherit
+description: Use this agent for designing scalable server architectures, API systems, and distributed backends. This includes microservices vs monolith decisions, database selection, caching strategies, message queue design, authentication architecture, and system design for high availability and horizontal scaling. Distinct from database-architect (schema and query focus) by covering full backend system design.
+model: opus
 color: blue
 ---
 

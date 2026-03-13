@@ -1,6 +1,6 @@
 ---
 name: ai-engineer
-description: Integrate AI/ML features that actually ship
+description: Use this agent for integrating AI and ML capabilities into production applications. This includes model selection and evaluation, inference optimization, embedding pipelines, RAG architecture design, LLM API integration, prompt engineering for applications, vector database setup, and deploying AI features that ship reliably.
 model: inherit
 color: purple
 ---

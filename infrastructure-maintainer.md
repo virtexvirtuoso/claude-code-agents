@@ -1,6 +1,6 @@
 ---
 name: infrastructure-maintainer
-description: Scale without breaking the bank
+description: Use this agent for infrastructure scaling, cloud cost optimization, and system reliability engineering. This includes auto-scaling strategies, resource rightsizing, monitoring and alerting configuration, capacity planning, cloud cost analysis, and SLA/uptime management. Distinct from ops skill (Virtuoso system administration) by focusing on scaling and cost optimization strategy.
 model: inherit
 color: steel
 ---

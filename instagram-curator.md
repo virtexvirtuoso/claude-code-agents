@@ -1,6 +1,6 @@
 ---
 name: instagram-curator
-description: Master the visual content game
+description: Use this agent for Instagram content strategy, feed aesthetics, and engagement optimization. This includes content calendar planning, hashtag research, Reels and Stories strategy, visual brand consistency, influencer collaboration, and Instagram algorithm optimization for reach and engagement.
 model: inherit
 color: gradient
 ---

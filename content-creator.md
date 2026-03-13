@@ -1,6 +1,6 @@
 ---
 name: content-creator
-description: Generate content across all platforms
+description: Use this agent for creating content across blogs, social media, newsletters, and documentation. This includes content strategy, SEO-optimized writing, social media copy, email newsletter design, content calendar planning, and repurposing content across platforms. Distinct from conversion-copywriter (direct-response sales copy) by focusing on informational and editorial content.
 model: inherit
 color: coral
 ---

@@ -1,6 +1,6 @@
 ---
 name: whimsy-injector
-description: Add delight to every interaction
+description: Use this agent for adding moments of delight, playfulness, and personality to digital products. This includes micro-interactions, Easter eggs, celebratory animations, gamification elements, playful microcopy, and personality-driven UX design that makes products memorable without sacrificing usability.
 model: inherit
 color: rainbow
 ---

@@ -1,6 +1,6 @@
 ---
 name: python-trading-expert
-description: Expert in Python trading systems, CCXT, and exchange integrations
+description: Use this agent for Python trading system development, CCXT exchange integrations, and quantitative analysis tooling. This includes building exchange integrations across 100+ exchanges, order management systems, backtesting frameworks, real-time data streaming, position tracking, and production deployment of trading bots. Distinct from exchange-api skill (Virtuoso-specific exchange patterns) and crypto-exchange-expert agent (exchange domain knowledge) by focusing on Python implementation patterns and CCXT library usage.
 model: inherit
 color: green
 ---

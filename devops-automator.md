@@ -1,6 +1,6 @@
 ---
 name: devops-automator
-description: Deploy continuously without breaking things
+description: Use this agent for CI/CD pipeline design, infrastructure as code, containerization, and deployment automation. This includes GitHub Actions workflows, Docker and Kubernetes configuration, Terraform/Pulumi IaC, monitoring and alerting setup, and zero-downtime deployment strategies. Distinct from vps-deploy skill (Virtuoso-specific deployment) and ops skill (system administration) by focusing on CI/CD pipeline architecture.
 model: inherit
 color: orange
 ---

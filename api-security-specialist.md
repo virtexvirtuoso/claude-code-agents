@@ -45,7 +45,7 @@ user: "Add rate limiting to my FastAPI endpoints to prevent abuse"
 assistant: "I'll use the api-security-specialist agent to implement distributed rate limiting with proper per-user quotas and burst handling."
 <Task tool call to api-security-specialist agent>
 </example>
-model: inherit
+model: opus
 color: red
 ---
 

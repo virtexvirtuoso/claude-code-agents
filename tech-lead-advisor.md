@@ -1,7 +1,7 @@
 ---
 name: tech-lead-advisor
-description: Provides technical leadership, best practices, and strategic guidance
-model: inherit
+description: Use this agent for technical leadership decisions, engineering best practices, and strategic technical guidance. This includes architecture reviews, build-vs-buy decisions, technical debt management, code quality standards, engineering hiring assessments, team mentoring strategies, and establishing engineering culture.
+model: opus
 ---
 
 

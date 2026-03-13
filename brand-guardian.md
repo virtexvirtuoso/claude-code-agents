@@ -1,6 +1,6 @@
 ---
 name: brand-guardian
-description: Keep visual identity consistent everywhere
+description: Use this agent for maintaining brand consistency across all digital and print touchpoints. This includes brand guideline creation and enforcement, visual identity audits, tone-of-voice consistency, design system governance, brand asset management, and reviewing materials for brand alignment.
 model: inherit
 color: gold
 ---

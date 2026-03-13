@@ -1,6 +1,6 @@
 ---
 name: async-pattern-analyzer
-description: Analyzes async/await patterns, concurrency, and performance bottlenecks
+description: Use this agent for reviewing async/await patterns, diagnosing concurrency issues, and optimizing asynchronous code. This includes identifying race conditions, deadlocks, and resource leaks in async code, evaluating Promise chains, analyzing event loop blocking, and recommending patterns for Python asyncio, JavaScript async, and Go goroutines. Distinct from realtime-systems-architect (system-level architecture) by focusing on code-level async patterns.
 model: inherit
 color: purple
 ---

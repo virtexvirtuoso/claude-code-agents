@@ -1,7 +1,7 @@
 ---
 name: architecture-simplifier
-description: Reduces complexity, refactors code, and improves system architecture
-model: inherit
+description: Use this agent for reducing system complexity, refactoring over-engineered code, and improving system architecture. This includes identifying unnecessary abstractions, simplifying inheritance hierarchies, consolidating redundant services, reducing coupling between modules, and evaluating when complexity is warranted vs when to simplify.
+model: opus
 ---
 
 

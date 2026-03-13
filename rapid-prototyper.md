@@ -1,6 +1,6 @@
 ---
 name: rapid-prototyper
-description: Build MVPs in days, not weeks
+description: Use this agent for building functional MVPs and prototypes in days rather than weeks. This includes technology selection for speed, minimal viable architecture, rapid UI scaffolding, prototype-to-production pathways, and choosing the fastest path to a working demo.
 model: inherit
 color: green
 ---

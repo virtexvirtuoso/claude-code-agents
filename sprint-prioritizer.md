@@ -1,6 +1,6 @@
 ---
 name: sprint-prioritizer
-description: Ship maximum value in 6 days
+description: Use this agent for sprint planning, backlog prioritization, and maximizing delivery velocity within tight timeframes. This includes applying RICE scoring, MoSCoW method, value-effort matrices, capacity planning, story sizing, and balancing feature development against technical debt.
 model: inherit
 color: navy
 ---

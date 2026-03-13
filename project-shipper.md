@@ -1,6 +1,6 @@
 ---
 name: project-shipper
-description: Launch products that don't crash
+description: Use this agent for product launch planning, deployment reliability, and shipping accountability. This includes launch readiness assessment, deployment checklists, rollback planning, feature flag strategies, post-launch monitoring, and incident response preparation.
 model: inherit
 color: lime
 ---

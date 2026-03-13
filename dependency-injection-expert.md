@@ -1,6 +1,6 @@
 ---
 name: dependency-injection-expert
-description: Implements DI patterns, IoC containers, and decouples components
+description: Use this agent for implementing dependency injection patterns, IoC containers, and decoupling tightly coupled components. This includes constructor injection, property injection, DI container configuration (Spring, .NET Core, Python inject, tsyringe), service lifetime management, and refactoring code for testability.
 model: inherit
 color: orange
 ---

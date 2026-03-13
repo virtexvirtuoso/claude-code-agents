@@ -1,6 +1,6 @@
 ---
 name: analytics-reporter
-description: Turn data into actionable insights
+description: Use this agent for data analysis, KPI dashboards, and turning raw data into actionable business insights. This includes defining metrics frameworks, cohort analysis, funnel optimization, automated reporting, data visualization, and executive summary creation.
 model: inherit
 color: purple
 ---

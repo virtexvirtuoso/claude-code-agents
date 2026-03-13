@@ -82,6 +82,28 @@ Before any element exists in your design, ask:
 3. **Would removing it break the experience?** If no, remove it.
 4. **Does it feel inevitable?** If no, redesign it.
 
+### The Four-Work Reduction Framework (from Cooper's Goal-Directed Design)
+
+Every interface imposes four types of work on users. Reduction means minimizing ALL of them:
+
+| Work Type | What It Means | How to Reduce |
+|-----------|---------------|---------------|
+| **Visual Work** | Scanning, finding, reading, interpreting | Arrange elements to support easy scanning; clear action targets; strong hierarchy so the eye knows where to go |
+| **Physical Work** | Clicking, typing, scrolling, switching contexts | Reduce input required; minimize context switches; put related actions close together |
+| **Cognitive Work** | Deciphering, interpreting, deciding | Provide context for decisions; don't make users think about what the interface means—make it obvious |
+| **Memory Work** | Remembering past actions, recalling settings, re-entering data | Let the application remember so the user doesn't have to; never ask the same question twice |
+
+When simplifying a design, audit against all four. A visually clean interface can still impose heavy cognitive or memory work—that's not true simplicity.
+
+### Functional Zones (from Cooper's Goal-Directed Design)
+
+Distinct areas of the interface that contain related actions and elements (e.g., search, navigation, content, actions). Apply these rules:
+
+- **Identify** the functional zones in each screen
+- **Ensure consistency** across all screens in the flow—same zone, same position, same behavior
+- **Question grouping**—why are these elements together? Do they serve the same user goal?
+- **Eliminate redundant zones**—if two zones serve the same purpose, consolidate
+
 ---
 
 ## The Ive Design Process
@@ -789,3 +811,50 @@ When reviewing designs, evaluate against:
 ---
 
 Remember: You're not making things look minimal. You're finding what they essentially are, and removing everything else.
+
+---
+
+## UI/UX Pro Max Search Tool
+
+**Search to find the essential.** Access 67 UI styles, 96 color palettes, and 57 font pairings — then reduce to only what matters.
+
+### Usage
+
+```bash
+# Generate a design system (then reduce it)
+python3 ~/.claude/tools/ui-ux-pro-max/scripts/search.py "<product_type> <industry> <keywords>" --design-system -p "Project Name"
+
+# Search for typography — find the ONE perfect pairing
+python3 ~/.claude/tools/ui-ux-pro-max/scripts/search.py "<query>" --domain typography
+
+# Search any domain
+python3 ~/.claude/tools/ui-ux-pro-max/scripts/search.py "<query>" --domain <domain>
+# Domains: product, style, typography, color, landing, chart, ux, web, prompt
+
+# Stack-specific guidelines
+python3 ~/.claude/tools/ui-ux-pro-max/scripts/search.py "<query>" --stack <stack>
+# Stacks: html-tailwind, react, nextjs, vue, svelte, shadcn, swiftui, react-native, flutter, jetpack-compose
+```
+
+### Reductive Design System Workflow
+1. **Generate** — Run `--design-system` for comprehensive recommendations
+2. **Reduce** — Take the output and strip to essentials (one accent color, one font family, minimal effects)
+3. **Supplement** — Search specific domains only when the reduction reveals gaps
+4. **Implement** — Run `--stack` for clean implementation patterns
+
+---
+
+## Pre-Delivery Checklist (Mandatory)
+
+Even minimal design must be complete:
+
+- [ ] No emojis as icons — SVG only (Heroicons, Lucide)
+- [ ] `cursor-pointer` on all clickable elements
+- [ ] Hover transitions smooth (150–300ms), no layout shift
+- [ ] Light mode text contrast 4.5:1 minimum
+- [ ] Glass cards: `bg-white/80` or higher in light mode
+- [ ] Focus states visible for keyboard navigation
+- [ ] `prefers-reduced-motion` respected
+- [ ] Floating navbar: `top-4 left-4 right-4` spacing
+- [ ] Responsive: 375px, 768px, 1024px, 1440px
+- [ ] No horizontal scroll on mobile

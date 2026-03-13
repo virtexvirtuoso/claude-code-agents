@@ -1,6 +1,6 @@
 ---
 name: test-writer-fixer
-description: Write tests that catch real bugs
+description: Use this agent for writing comprehensive test suites and fixing broken tests across Python (pytest), JavaScript (Jest, Vitest, Mocha), and other frameworks. This includes unit, integration, and E2E test creation, TDD methodology, mutation testing, flaky test debugging, test infrastructure setup, and CI test optimization. Distinct from webapp-testing skill (Playwright browser automation) by focusing on code-level test suites.
 model: inherit
 color: red
 ---
